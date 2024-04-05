@@ -3,17 +3,17 @@
     import { browser} from '$app/environment'
     import theme from '$lib/shared/stores/theme'
     const themes = ["plain","mint","s.berry","banana","peanut","grape","melon"]
-
+    console.log(`current theme is:` + $theme)
     if (browser){
-        console.log($theme)
-        theme.set(1)
         document.documentElement.setAttribute('data-theme',themes[$theme])
     }
 
     function change_theme(){
         if (browser){
-            theme.set($theme + 1 % themes.length - 1)
-            //document.documentElement.setAttribute('data-theme',themes[$theme])
+            let next_theme = ($theme + 1) % themes.length
+            theme.set(next_theme)
+            console.log($theme)
+            document.documentElement.setAttribute('data-theme',themes[$theme])
             console.log('changed theme')
         }
 
