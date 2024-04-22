@@ -1,7 +1,7 @@
 [data-theme='plain']{
     --background-color:#e5d6cc;
     --color:#171717;
-    --hover-color: #878f8f;
+    --hover-color: #929190;
 }
 
 [data-theme='mint']{
@@ -33,4 +33,34 @@
     --background-color:#dff5de;
     --color:#0d142c;
     --hover-color: #878f8f;
+}
+
+* {
+font-family: Spline Sans Mono, Courier New, Courier, monospace;
+}
+
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    color: unset;
+
+
+}
+:global(*){
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+:global(a:hover){
+    color:var(--hover-color);
+}
+pre{
+    color: revert;
+    background-color: var(--background-color);
 }

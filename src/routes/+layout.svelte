@@ -1,5 +1,7 @@
 <script>
-    import '$lib/css/style.css'
+    import '$lib/css/reset.css'
+    import '$lib/css/main.css'
+    import '$lib/css/code.css'
     import { browser} from '$app/environment'
     import theme from '$lib/shared/stores/theme'
     const themes = ["plain","mint","s.berry","banana","peanut","grape","melon"]
@@ -12,9 +14,7 @@
         if (browser){
             let next_theme = ($theme + 1) % themes.length
             theme.set(next_theme)
-            console.log($theme)
             document.documentElement.setAttribute('data-theme',themes[$theme])
-            console.log('changed theme')
         }
 
     }
@@ -33,17 +33,16 @@
         background-color: var(--background-color);
         color: var(--color);
     }
+    :global(*)::selection{
+        background: var(--hover-color);
+    }
 
-    :global(a:hover) {
+    :global(a:hover){
         color:var(--hover-color);
     }
-    :global(pre) {
-        background-color: unset;
-        color: unset;
+    pre{
+        color: revert;
+        background-color: var(--background-color);
+    }
 
-    }
-    :global(code) {
-        background-color: unset;
-        color: unset;
-    }
 </style>
