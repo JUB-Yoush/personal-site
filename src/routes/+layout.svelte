@@ -5,9 +5,11 @@
     import { browser} from '$app/environment'
     import theme from '$lib/shared/stores/theme'
     const themes = ["plain","mint","s.berry","banana","peanut","grape","melon"]
-    console.log(`current theme is:` + $theme)
+    let curr_theme = 0
+
     if (browser){
         document.documentElement.setAttribute('data-theme',themes[$theme])
+        curr_theme = $theme
     }
 
     function change_theme(){
@@ -15,6 +17,7 @@
             let next_theme = ($theme + 1) % themes.length
             theme.set(next_theme)
             document.documentElement.setAttribute('data-theme',themes[$theme])
+            curr_theme = $theme
         }
 
     }
@@ -22,11 +25,28 @@
 
 
 <main>
-    <h1>header from the +layout.svelte</h1>
-    <img src="/assets/mm.png" alt="">
-    <slot/>
-    <footer>foot</footer>
-    <button on:click={change_theme}>change theme</button>
+        <nav>
+            <a class="" href="/">~</a>
+            <a href="/about">about</a>
+            <a href="/resume">hire me 😳</a>
+            <a href="/projects">projects</a>
+            <a href="/blog">blog</a>
+            <a on:click={change_theme}>{themes[curr_theme]}</a>
+        </nav>
+
+        <body>
+            <slot/>
+            <footer>
+                <span>---------------</span>
+                <div>
+                    <a class="" href="mailto:jayden.patrick.brooks@gmail.com" target="_blank">email</a>
+                    <a class="" href="https://www.linkedin.com/in/jaydenpb/" target="_blank">linkedin</a>
+                    <a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
+                    <a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
+                    <a class="" href="/mail">mailing list</a>
+                </div>
+            <footer/>
+        </body>
 </main>
 
 <style>
@@ -40,10 +60,27 @@
 
     :global(a:hover){
         color:var(--hover-color);
+        cursor: pointer;
     }
-    pre{
-        color: revert;
-        background-color: var(--background-color);
+    :global(a){
+        text-decoration: underline;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+    }
+    @media only screen and (max-width: 600px){
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+
     }
 
 </style>
