@@ -9,10 +9,10 @@ export const siteTitle = 'Jaydenpb Dot Net'
 export const siteDescription = 'A blog and personal site'
 export const siteURL = 'jaydenpb.net'
 export const siteLink = 'https://jaydenpb.net'
-export const siteAuthor = '- Jayden Brooks'
+export const siteAuthor = 'Jayden Brooks'
 
 // Controls how many posts are shown per page on the main blog index pages
-export const postsPerPage = 10
+//export const postsPerPage = 10
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 /*
