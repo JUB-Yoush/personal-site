@@ -35,6 +35,7 @@
         </nav>
 
         <body>
+                <span>---------------</span>
             <slot/>
             <footer>
                 <span>---------------</span>
@@ -66,19 +67,46 @@
         text-decoration: underline;
     }
     main{
+        width:100vw;
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     nav{
+        padding-right:8px ;
         display: flex;
         flex-direction: column;
         text-align: right;
+    }
+    nav a{
+        margin-top: 4px;
+    }
+    body{
+        width: max(50vw,420px);
+
+    }
+    footer{
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
     @media only screen and (max-width: 600px){
         main{
-            display: flex;
             flex-direction: column;
+        }
+        nav{
+            flex-direction: row;
+            text-align: left;
+            justify-content: center;
+        }
+        nav a{
+            margin-right: 12px;
+
         }
 
     }
