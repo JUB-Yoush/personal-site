@@ -23,6 +23,7 @@
 
 <main>
     <h1>header from the +layout.svelte</h1>
+    <img src="/assets/mm.png" alt="">
     <slot/>
     <footer>foot</footer>
     <button on:click={change_theme}>change theme</button>
