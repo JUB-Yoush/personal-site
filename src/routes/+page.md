@@ -9,18 +9,24 @@ let gif_number = Math.floor(Math.random() * gif_tuple.length)
 <br>
 <a class="gif-changer" href="javascript:;" on:click={(e)=>(gif_number = (gif_number+1) % gif_tuple.length)}>{gif_tuple[gif_number][1]}</a>
 
+<br>
+<br>
+
 ## hi
-I'm Jayden, a computer science student at the Lassonde school of Engineering (a part of York University)
+I'm Jayden, a computer science student at the Lassonde school of Engineering ( which is at York University)
 
 
 While you're here, feel free to learn more [about me](/about), check out what I'm [up to](/projects) or what I'm [thinking about](/blog).
 
 
 <div class="hire-box">
-<p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> currently open to... nothing, actually. Google gave me a job for the summer before you could.</p>
+<p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> currently open to:
+<br>
+<br>
+Nothing, actually. Google gave me a job for the summer before you could.</p>
 
-<em>Ya snooze ya loose. and you snost, so you lost.
-</em>
+<p>Ya snooze ya loose. and <em>you snost, so you lost.</em></p>
+
 </div>
 
 
