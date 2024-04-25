@@ -2,17 +2,28 @@
 	export let data;
 </script>
 
-<h1>Blog</h1>
+<h1>~/blog</h1>
 
 <ul>
 	{#each data.posts as post}
 		<li>
-			<h2>
-				<a href={post.path}>
+				<a class="blog-title" href={post.path}>
 					{post.meta.title}
 				</a>
-			</h2>
+				<br>
 			Published {post.meta.date}
 		</li>
 	{/each}
 </ul>
+
+<style>
+
+.blog-title{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+li{
+	padding-bottom: 1.5rem;
+}
+</style>

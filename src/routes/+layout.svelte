@@ -1,4 +1,5 @@
 <script>
+    import { page } from '$app/stores';
     import '$lib/css/reset.css'
     import '$lib/css/main.css'
     import '$lib/css/code.css'
@@ -25,7 +26,7 @@
 
 
 <main>
-        <nav>
+        <nav class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
             <a class="" href="/">~</a>
             <a href="/about">about</a>
             <a href="/resume">hire me 😳</a>
@@ -34,11 +35,11 @@
             <a on:click={change_theme}>{themes[curr_theme]}</a>
         </nav>
 
-        <body>
-                <span>---------------</span>
+        <body class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
+                <span>+-------------+</span>
             <slot/>
             <footer>
-                <span>---------------</span>
+                <span>+-------------+</span>
                 <div>
                     <a class="" href="mailto:jayden.patrick.brooks@gmail.com" target="_blank">email</a>
                     <a class="" href="https://www.linkedin.com/in/jaydenpb/" target="_blank">linkedin</a>
@@ -67,6 +68,7 @@
         text-decoration: underline;
     }
     main{
+        margin-top: 15vh;
         width:100vw;
         display: flex;
         flex-direction: row;
@@ -75,17 +77,33 @@
         margin-right: auto;
     }
     nav{
-        padding-right:8px ;
+        padding-right:1.5rem ;
+        padding-top: 16px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         text-align: right;
     }
     nav a{
-        margin-top: 4px;
+        margin-bottom: .5rem;
     }
     body{
-        width: max(50vw,420px);
+        max-width: 800px;
+        width: 60vw;
+        min-width: 320px;
 
+    }
+    body.blog{
+        width: 80vw;
+        max-width: 1200px;
+
+    }
+    body > span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 8px;
     }
     footer{
         margin-top: 8px;
@@ -95,14 +113,20 @@
         align-items: center;
 
     }
+
     @media only screen and (max-width: 600px){
         main{
             flex-direction: column;
+            margin-top: min(5vh,30px);
+            margin-left: min(5vw,60px);
         }
         nav{
             flex-direction: row;
             text-align: left;
             justify-content: center;
+        }
+        body{
+            width: 90vw;
         }
         nav a{
             margin-right: 12px;

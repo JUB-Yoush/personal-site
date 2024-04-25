@@ -44,17 +44,25 @@ font-family: Spline Sans Mono, Courier New, Courier, monospace;
 h1{
     font-size: 2rem;
     font-weight: bold;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 h2{
     font-size: 1.5rem;
+    padding-bottom: .8rem;
     font-weight: bold;
+}
+h3{
+    font-size: 1.3rem;
+    padding-bottom: .8rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 span {
     font-family: 'Courier New', Courier, monospace;
     color: unset;
-
-
 }
 :global(*){
     background-color: var(--background-color);
@@ -69,10 +77,30 @@ pre{
     background-color: var(--background-color);
 }
 
+p,a,li,em{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+li{
+    list-style: square;
+    margin-left: 3rem;
+}
+em{
+    font-style: italic;
+}
 
 /*~*/
 .home_gif{
- min-width: 150px;
- width: 15vw;
+ height: 20vw;
+ max-height: 250px;
+ min-height: 150px;
+ width: auto;
+
+}
+.about-img{
+ height: 20vw;
+ max-height: 250px;
+ min-height: 150px;
+ width: auto;
 
 }
