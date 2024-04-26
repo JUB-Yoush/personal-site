@@ -24,33 +24,6 @@
     }
 </script>
 
-
-<main>
-        <nav class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
-            <a class="" href="/">~</a>
-            <a href="/about">about</a>
-            <a href="/resume">hire me 😳</a>
-            <a href="/projects">projects</a>
-            <a href="/blog">blog</a>
-            <a on:click={change_theme}>{themes[curr_theme]}</a>
-        </nav>
-
-        <body class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
-                <span>+-------------+</span>
-            <slot/>
-            <footer>
-                <span>+-------------+</span>
-                <div>
-                    <a class="" href="mailto:jayden.patrick.brooks@gmail.com" target="_blank">email</a>
-                    <a class="" href="https://www.linkedin.com/in/jaydenpb/" target="_blank">linkedin</a>
-                    <a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
-                    <a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
-                    <a class="" href="/mail">mailing list</a>
-                </div>
-            <footer/>
-        </body>
-</main>
-
 <style>
     :global(*){
         background-color: var(--background-color);
@@ -136,3 +109,29 @@
     }
 
 </style>
+
+<main>
+        <nav class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
+            <a class="" href="/">~</a>
+            <a href="/about">about</a>
+            <a href="/resume">hire me 😳</a>
+            <a href="/projects">projects</a>
+            <a href="/blog">blog</a>
+            <a on:click={change_theme}>{themes[curr_theme]}</a>
+        </nav>
+
+        <body class={$page.url.pathname.startsWith('/blog/') ? 'blog' : ''}>
+                <span>+-------------+</span>
+            <slot/>
+            <footer>
+                <span>+-------------+</span>
+                <div>
+                    <a class="" href="mailto:jayden.patrick.brooks@gmail.com" target="_blank">email</a>
+                    <a class="" href="https://www.linkedin.com/in/jaydenpb/" target="_blank">linkedin</a>
+                    <a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
+                    <a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
+                    <a class="" href="/mail">mailing list</a>
+                </div>
+            <footer/>
+        </body>
+</main>

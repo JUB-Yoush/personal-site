@@ -104,3 +104,10 @@ em{
  width: auto;
 
 }
+.box{
+    padding: 4px;
+    border-style: solid;
+    border-color: var(--color) ;
+    border-width: 2px;
+    margin-bottom:1rem;
+}

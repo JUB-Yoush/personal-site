@@ -4,6 +4,8 @@
 
 <h1>~/blog</h1>
 
+<p>If you'd prefer being notified for new posts automatically, my site has <a href="">rss</a> support.</p>
+
 <ul>
 	{#each data.posts as post}
 		<li>

@@ -12,34 +12,27 @@ let gif_number = Math.floor(Math.random() * gif_tuple.length)
 <br>
 <br>
 
-## hi
-I'm Jayden, a computer science student at the Lassonde school of Engineering ( which is at York University)
+## Hi
+I'm Jayden, a computer science student at the Lassonde school of Engineering (a school at York University)
 
 
 While you're here, feel free to learn more [about me](/about), check out what I'm [up to](/projects) or what I'm [thinking about](/blog).
 
 
-<div class="hire-box">
-<p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> currently open to:
+Thanks for stopping by.
+
+
+<div class="box">
+<p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> Currently looking for:
 <br>
 <br>
-Nothing, actually. Google gave me a job for the summer before you could.</p>
+Nothing! Google gave me a job for the summer so I'm set for now. Should've hired me when you could.</p>
 
 <p>Ya snooze ya loose. and <em>you snost, so you lost.</em></p>
 
 </div>
 
-
-Regardless, thanks for checking out my site, feel free to reach out!
-
 Also, if you go to York and are interested in game development, [gdyu.club](https://www.gdyu.club/).
 
-<style>
-    .hire-box{
-        padding: 4px;
-        border-style: solid;
-        border-color: var(--color) ;
-        border-width: 2px;
-        margin-bottom:1rem;
-    }
-</style>
+
+
