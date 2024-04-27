@@ -4,7 +4,7 @@
 
 <h1>~/blog</h1>
 
-<p>If you'd prefer being notified for new posts automatically (instead of me just... telling you...), my site has <a href="/api/rss">rss</a> support.</p>
+<p>If you'd prefer being notified for new posts automatically, my site has <a href="/api/rss">rss</a> support.</p>
 
 <ul>
 	{#each data.posts as post}
