@@ -4,7 +4,7 @@
 
 <h1>~/blog</h1>
 
-<p>If you'd prefer being notified for new posts automatically (instead of me just... telling you...), my site has <a href="/rss">rss</a> support.</p>
+<p>If you'd prefer being notified for new posts automatically (instead of me just... telling you...), my site has <a href="/api/rss">rss</a> support.</p>
 
 <ul>
 	{#each data.posts as post}
@@ -28,4 +28,22 @@
 li{
 	padding-bottom: 1.5rem;
 }
+:where(h2, h3, h4, h5, h6) .icon-link {
+  position: relative;
+}
+
+:where(h2, h3, h4, h5, h6) .icon-link::before {
+  content: '#';
+  position: absolute;
+  left: -1ch;
+  top: 0;
+  line-height: 1;
+  opacity: 0;
+  text-decoration: underline;
+}
+
+:where(h2, h3, h4, h5, h6):hover .icon-link::before {
+  opacity: 1;
+}
+
 </style>

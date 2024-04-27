@@ -14,7 +14,7 @@ export const GET = async () => {
 	const options = {
 		headers: {
 			'Cache-Control': 'max-age=0, s-maxage=3600',
-			'Content-Type': 'application/xml'
+			'Content-Type': 'application/rss+xml; charset=utf-8'
 		}
 	};
 

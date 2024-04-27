@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Resume</title>
+    <meta property="og:title" content="Resume">
+</svelte:head>
+
 # ~/resume
 a pdf copy can be found [here](https://drive.google.com/file/d/1nVaJ1Z8sA5iE_YDEoOEp4j_lXOrLW6Tp/view?usp=sharing)
 

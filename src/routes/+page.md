@@ -3,6 +3,12 @@ const gif_tuple = [["https://media1.tenor.com/m/MZRbDClAvOgAAAAC/capybara-bath.g
 let gif_number = Math.floor(Math.random() * gif_tuple.length)
 
 </script>
+
+<svelte:head>
+    <title>Jaydenpb dot net</title>
+    <meta property="og:title" content="Jaydenpb dot net">
+</svelte:head>
+
 # /jaydenpb.net
 
 <img class="home_gif" src={gif_tuple[gif_number][0]} alt="">

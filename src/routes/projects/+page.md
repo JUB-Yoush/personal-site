@@ -1,3 +1,8 @@
+<svelte:head>
+    <title>Projects</title>
+    <meta property="og:title" content="Projects">
+</svelte:head>
+
 # ~/projects
 
 This page just has a selection of my favorite/recent projects.
@@ -8,7 +13,7 @@ If you'd like to see everything else:
 
 ### <a href="https://github.com/JUB-Yoush/ResumeRumble" target="_blank" >Resume Rumble</a>
 #### Next.js React Tailwind CSS TypeScript Prisma MySQL PlanetScale AWS
-- My team's project for Hack the Valley 2023. We wanted to make a resume reviewer but thought it would be funny to "gamify" it through adding things like "ranked resume battles" and a "resume elo score"  
+- My team's project for Hack the Valley 2023. We wanted to make a resume reviewer but thought it would be funny to "gamify" it through adding things like "ranked resume battles" and a "resume elo score"
 - We made a lot in 36 hours and I'm still very impressed w how it turned out (Araf carried us shout-out to the goat)
 - It's also live! you can check it out [here](https://www.getemployedin.tech/)
 
@@ -37,7 +42,7 @@ If you'd like to see everything else:
 #### HTML CSS JS C++ SQL Flask
 - My teams submission for Methacks 2023.
 
-- It's a pomodoro timer that sends stats about how you study to a database and displays it to a webpage. I was in charge of the software front-end, back-end and Database. 
+- It's a pomodoro timer that sends stats about how you study to a database and displays it to a webpage. I was in charge of the software front-end, back-end and Database.
 
 ### <a href="https://yoush.itch.io/pdp-rpg" target="_blank" >pdp-rpg</a>
 #### Godot Engine 4
