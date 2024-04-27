@@ -28,22 +28,5 @@
 li{
 	padding-bottom: 1.5rem;
 }
-:where(h2, h3, h4, h5, h6) .icon-link {
-  position: relative;
-}
-
-:where(h2, h3, h4, h5, h6) .icon-link::before {
-  content: '#';
-  position: absolute;
-  left: -1ch;
-  top: 0;
-  line-height: 1;
-  opacity: 0;
-  text-decoration: underline;
-}
-
-:where(h2, h3, h4, h5, h6):hover .icon-link::before {
-  opacity: 1;
-}
 
 </style>
