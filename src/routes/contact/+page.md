@@ -3,7 +3,7 @@
 ## Note about reaching out:
 Like everyone else, I am quite busy.
 
-I only have the bandwidth to respond to inquiries that align with my interests and schedule. Please know that before reaching out.
+I only have the bandwidth to respond to inquiries that align with my interests and schedule. Please keep that in mind.
 
 Thank you for understanding.
 
