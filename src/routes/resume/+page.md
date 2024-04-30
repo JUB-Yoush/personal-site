@@ -4,7 +4,7 @@
 </svelte:head>
 
 # ~/resume
-a pdf copy can be found [here](https://drive.google.com/file/d/1nVaJ1Z8sA5iE_YDEoOEp4j_lXOrLW6Tp/view?usp=sharing)
+a pdf copy can be found [here](https://drive.google.com/file/d/1tZ9oroA65H3Xp4cXmx4obz30DNrTI5Cd/view?usp=sharing)
 
 ## Education
 ### Lassonde School of Engineering, York University
@@ -15,6 +15,10 @@ a pdf copy can be found [here](https://drive.google.com/file/d/1nVaJ1Z8sA5iE_YDE
 
 
 ## Work Experience
+### Google Software Engineering Intern
+#### Workspace Team: Sunnyvale California
+- Working on Google Chat!!
+
 ### Scotiabank Software Engineering Intern
 #### Velocity Program: Java Event Layer Team Jan-Apr 2024
 - My Second Term at Scotiabank, moving from the IT team to the Digital Factory office down the street. My Lunchtime ping pong era has arrived.
@@ -26,11 +30,11 @@ a pdf copy can be found [here](https://drive.google.com/file/d/1nVaJ1Z8sA5iE_YDE
 #### Velocity Program: AppSec DevOps Team Sep-Dec 2023
 - My first Internship at a big company!
 
-- Worked on a Proof-of concept for a software system that automates the recording and displaying of software scan data.
+- Worked on a Proof-of-concept software system that automates the recording and displaying of software scan data.
 ### Software Engineering Intern
 
 #### M5V Developments May-Aug 2023
-- I spent this summer with M5V developments, helping design some innovations to their backend management and content creation workflows.
+- I helped design some innovations to M5V's backend management and content creation workflows.
 
 - I used Pytorch trained models to make video transcripts automatically, as well as used the openAI api to  automatically generate quizzes.
 
@@ -60,7 +64,7 @@ I have a [page](/projects) dedicated to those.
 - Shockingly, people showed up! Enough for us to apply to be a real club.
 
 - More than a year Later It's going much better than I could have ever imagined.
-  We have a discord server of over 620 people, an executive team of 13, Workshops, Community events, and a video-game book club (the true voting class of GDYU).
+  We have a discord server of over 600+ people, an executive team, Workshops, Community events, and a video-game book club (the true voting class of GDYU).
 
 - Check us out at [gdyu.club](https://www.gdyu.club/).
 

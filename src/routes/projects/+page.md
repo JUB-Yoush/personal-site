@@ -14,6 +14,18 @@ If you'd like to see everything else:
 <br>
 <br>
 
+## <a class="project-header" href="https://github.com/GDYUClub/robo-scrimblo" target="_blank" >Robo-Scrimblo</a>
+#### Discord.py MongoDB Docker GithubActions
+
+- A python discord bot that manages GDYU Bounties, as well as manages votes for the game to play in the GESC.
+- Set up automatic docker container creation and deployment, I don't need to ssh into the host pc, pull the changes, and rebuild myself lol
+- It's hosted on a Raspberry pi under my desk.
+
+## <a class="project-header" href="https://github.com/GDYUClub/The-Maze" target="_blank" >The Maze</a>
+#### Godot Engine 4
+
+- GDYU's First collaborative Game development project. I was apprehensive to try collaborative game dev out, and we did run into a lot of the issues I had anticipated, but we learned a lot and know what to do next time.
+
 ## <a class="project-header" href="https://github.com/JUB-Yoush/ResumeRumble" target="_blank" >Resume Rumble</a>
 #### Next.js React Tailwind CSS TypeScript Prisma MySQL PlanetScale AWS
 - My team's project for Hack the Valley 2023. We wanted to make a resume reviewer but thought it would be funny to "gamify" it through adding things like "ranked resume battles" and a "resume elo score"
@@ -37,15 +49,11 @@ If you'd like to see everything else:
 
 ###  <a class="project-header" href="https://github.com/JUB-Yoush/gdyu-site" target="_blank" >GDYU's Website</a>
 #### SvelteKit TailwindCSS Typescript SkeletonUI
-- my first SvelteKit project and I am NEVER GOING BACK. I've done my reps with raw web development languages, and I'm ready to be *cybernetically enhanced.*
+- My first SvelteKit project and I am NEVER GOING BACK. I've done my reps with raw web development languages, and I'm ready to be *cybernetically enhanced.*
 
 - This was a little frontend site I made for the game development club I founded at york University. Not only because we are on the precipice of a merchandise release and would like to have a store to display our wares, but also because Hack the North asked for a link to our projects and I thought having a site to show them would be cool. (It totally worked and they let me into HTN 2023!!)
 
-### <a class="project-header" href="https://github.com/JUB-Yoush/methacks23" target="_blank" >Pomoduino</a>
-#### HTML CSS JS C++ SQL Flask
-- My teams submission for Methacks 2023.
-
-- It's a pomodoro timer that sends stats about how you study to a database and displays it to a webpage. I was in charge of the software front-end, back-end and Database.
+- It's recently been updated to Sveltekit 2.0 with a completely re-designed look. The art execs cook.
 
 ### <a class="project-header" href="https://yoush.itch.io/pdp-rpg" target="_blank" >pdp-rpg</a>
 #### Godot Engine 4
