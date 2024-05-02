@@ -6,10 +6,14 @@ date: "2024-04-29"
 ---
 # Hi I make video games
 - I'm a gamemaker hater
+- gamemaker 8.1 war memories
+- but lots of amazing games are made in it
 - game engines don't matter but they do matter also
 - the best engine is the one you know and that does what you need it to
 - it's never been easier to make a video game
 - never been more choice in tools to use
+- engines used to be bespoke, and built on a loss
+- godot is the linux of game engines
 - the different kinds of game engines
     - Foss and publishing locations + graphics and support
     - general engines vs specific engines
@@ -25,6 +29,6 @@ date: "2024-04-29"
 - the more assumptions your engine can make the less code you need to write yourself
 - like renpy or rpgmaker
 - general engines can only make general assumptions
-- reasons to make your own engine is if your game has very specific needs that a general engine either prevent or dont help with
+- reasons to make your own engine is if your game has very specific needs that a general engine either prevent or don't help with
 - less existing code means less code to understand before you know how to use the system, but you need to make the entire system
 
