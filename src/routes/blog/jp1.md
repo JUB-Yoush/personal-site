@@ -81,7 +81,7 @@ However there are *only* 2136 Kanji in the [Jōyō Kanji](https://www.kanshudo.c
 
 significantly less! but still over two thousand.
 
-Kanji feel redundant, as not only could every Kanji be written out as it's equivalent hiragana, but considering it sometimes takes so many more strokes to write then it's equivalent kana reading
+Kanji feel redundant, every Kanji could be written out as it's equivalent hiragana, and it sometimes takes so many more strokes to write a kanji then it's equivalent hiragana reading
 
 The Kanji for "embroidery pattern" (they get very specific) is 黻, 17 strokes.
 the reading for that Kanji is "aya" (あや), which is only 6 strokes.
@@ -117,7 +117,7 @@ Just put about 2300+ characters in your head and you're are now at a french lear
 
 ## 訓読み VS 音読み KUNYOMI VS ONYOMI
 
-Kanji are not words. They are used to make words, and some words are just single Kanji, however Kanji are not inertly words. This makes Kanji sound even more cumbersome then they already were, and some even promote the idea of learning Kanji just through vocabulary and skipping learning them by themselves.
+Kanji are not words. They are used to make words, and some words are just single Kanji, however Kanji are not inherently words. This makes Kanji sound even more cumbersome then they already were, and some even promote the idea of learning Kanji just through vocabulary and skipping learning them by themselves.
 
 When Japanese was forking from chinese they ALSO to resolve the merge conflicts between the existing Chinese Kanji meanings and the new Japanese Kanji meanings they were coming up with. Instead of choosing to reject or embrace tradition, they simply chose to not choose, and kept both meanings.
 
@@ -149,12 +149,14 @@ People (人人 although it would actually be written 人々 because　々 repeat
 
 Although it [isn't completely random](https://www.tofugu.com/Japanese/rendaku/), you'll likely just end up memorizing which words get rendaku'ed or not.
 
-## grammar.
+## Grammar
 so you've memorized 2000+ Kanji and 6000+ vocabulary words!
 
 Time to use them!
 
 There are no spaces in Japanese (traditionally), So Reading Japanese can *sometimes* be a nightmare.
+
+
 Because there is no separation between where one word ends and another one begins, you need to become a regular expression algorithm that try's to chunk together which kana are parts of which word, and which kana are used for particles.
 
 There are some helpful rules like verbs always end with "U" vowel kana and adjectives always end with the い Kana
@@ -184,7 +186,9 @@ In Japanese, the verb is the thing that the entire sentence is structured around
 to steal an example from this [great article](https://8020Japanese.com/Japanese-sentence-structure/):
 
 Taro saw Noriko at the library.
+
 たろう は のりこ を としょかん で みました。
+
 Tarō wa Noriko wo toshokan de mimashita.
 
 - The verb in this sentence is "See" (みました), and it's at the end.
@@ -195,12 +199,15 @@ Tarō wa Noriko wo toshokan de mimashita.
 The interesting thing is that these grammar particles could be structured in any order and still maintain their meaning, as long as the verb is at the end:
 
 たろう は としょかん で のりこ を みました。
+
 Tarō wa toshokan de Noriko wo mimashita.
 
 としょかん でたろう は  のりこ を みました。
+
 toshokan de Tarō wa  Noriko wo mimashita.
 
 のりこ を としょかん で たろう は みました。
+
 Noriko wo toshokan de Tarō wa mimashita.
 
 All mean the same thing!
