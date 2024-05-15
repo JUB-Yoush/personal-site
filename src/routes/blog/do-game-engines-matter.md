@@ -9,7 +9,10 @@ date: "2024-04-29"
 - gamemaker 8.1 war memories
 - but lots of amazing games are made in it
 - game engines don't matter but they do matter also
+- the people who play your game dont' care about how it was made, doom is an engineering marvel yes, but it exploded not because it was so well made, but because it was really fun.
 - the best engine is the one you know and that does what you need it to
+- we're privlaged to live in a time where game development and engine development are seperate things
+- in the dark ages making the games engine was just a part of development.
 - it's never been easier to make a video game
 - never been more choice in tools to use
 - engines used to be bespoke, and built on a loss
