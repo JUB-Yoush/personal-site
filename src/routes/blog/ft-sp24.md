@@ -14,9 +14,7 @@ Any medium, any experience.
 
 Not in sorted order.
 
-These last few months were quite hectic so I'm likley forgetting a lot of things
-
-## void stranger
+These last few months were quite hectic so I'm likley forgetting a lot of things.
 
 ## [Void Stranger](https://system-erasure.itch.io/void-stranger)
 I finished Void Stranger in April. It might be my new favorite game of all time? It's really good. Play it, trust me.
@@ -24,7 +22,6 @@ I finished Void Stranger in April. It might be my new favorite game of all time?
 I wish I could tell you about how interesting and unique this game is, but the descovery of those interesting and unique things is a part of the Void Stranger Experince. 
 
 (I've already gifted it to 3 people)
-
 
 ## [Dungeon Meshi](https://myanimelist.net/anime/52701/Dungeon_Meshi)
 The Dungeon is so Meshi dude
@@ -52,9 +49,9 @@ so I was expecting this guy to be the MF "Your favorite Rapper's favorite Rapper
 
 And was he?
 
-ehhhhhhhhhhhhh
+Eh.
 
-The book is good, and I liked it, which is why it's here of course. But it didn't meet the high expectations for it I gave it to begin with. 
+The book is good, and I liked it, (which is why it's here). But it didn't meet the high expectations for it I gave it to begin with. 
 
 I have smoked a whole lot of productivity books, and this one isn't too different from what I've read. The major difference between this and others (and why it's so recomended) is it's incredibly actionable (Unlike Cal Newports new book LOL).
 
@@ -75,14 +72,14 @@ It's a backpack that can transform into a rolling suitcase. Traveling with it is
 ## [Sakawa Coffee](http://sakawacoffee.com/)
 Small Japanese Cafe on Danforth, the food is great and you get a lot of it for the price. 
 
-The GDYU execs had a "Last Supper" for me and all the retiring execs here and it's a great spot, I'll definetly be back 
+The GDYU execs had a "Last Supper" for me and all the retiring execs here and it's a great spot, I'll definetly be back .
 
-get some of their hot onigiri and a $4.25 16 oz japanese drip coffee. Tell 'em Jayden sent you (they don't know who I am)
+Get yourself of their fresh onigiri and a 16 oz japanese drip coffee. Tell 'em Jayden sent you (they don't know who I am).
 
 ## [Bunpro](https://bunpro.jp) 
 It's like Wanikani but for Japanese grammar. Generally harder because there's much more nuance to grammar then there is vocuabulary, but it's been quite useful in helping me pick up things quick. You can also use it as an aid to textbooks like Genki, so it'll add an SRS to concepts that you learn in the book.
 
 
-Next one of these will be filled with all sorts of google and bay area related things. 
+Next one of these will be filled with all sorts of Google and Bay Area related things. 
 
 If you have any recomendations of things to do, let me know!!
