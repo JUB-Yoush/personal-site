@@ -12,7 +12,7 @@ Cool things I played or saw or used or checked out,
 
 Any medium, any experience.
 
-not in sorted order.
+Not in sorted order.
 
 These last few months were quite hectic so I'm likley forgetting a lot of things
 
