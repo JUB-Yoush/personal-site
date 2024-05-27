@@ -126,7 +126,6 @@ span {
     color: unset;
 }
 :global(*){
-    background-color: var(--background-color);
     color: var(--color);
 }
 
@@ -140,7 +139,7 @@ pre{
 
 p,a,li,em{
     margin-bottom: 1.1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     
 
 }
@@ -150,6 +149,10 @@ li{
 }
 em{
     font-style: italic;
+}
+
+strong{
+    font-weight: bolder;
 }
 
 /*~*/

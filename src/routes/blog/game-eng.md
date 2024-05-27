@@ -1,6 +1,6 @@
 ---
-title: "Why Game Engines Matter"
-date: "2024-05-25"
+title: "Thinking about Game Engines"
+date: "2024-05-26"
 ---
 
 ---
@@ -38,13 +38,21 @@ Complexity: How complicated that stuff is to set up. It's the systems your Game 
 
 A high scope low complexity genre would be a Bullet-Hell. Making a scrolling shooter engine is quite simple, you could do it in 30 minutes, however making all the assets, enemies, stages, bullet patterns, and everything else required would take significantly more time.
 
-Take a Game like Rouge instead. The complexity is of it is significantly higher, requiring an entire RPG system along with a procedural generation algorithm. However the scope is comparatively lower to it's complexity, as the Game is procedurally generated, so the levels make themselves! This is why Rogue-likes are so common in Indie Development, as you spend more time with the complexity to optimize the return on investment for scope, as the Game has a theoretically infinite amount of content.
+Take a Game like Rouge instead. The complexity is significantly higher, requiring an entire RPG system along with a procedural generation algorithm. However the scope is comparatively lower to it's complexity, as the Game is procedurally generated, so the levels make themselves! 
 
-Most beginner Game developers focus entirely on complexity, without making Games with a very large scope. Other than old High-School projects, none of my recent Games have had more than 1-2 levels. Most beginners make things quickly and loosely (as they should) and it leads to prototypes and vertical slices with just the minimum amount of content required to demonstrate the idea they came up with. This becomes an issue when you want to eventually transition into making full Games, as you don't have much experience in what It's like designing and building out the rest of the content for the Game idea you had come up with. 
+This is why Rogue-likes are so common in Indie Development, as you spend more time with the complexity to optimize the return on investment for scope, as the Game has a theoretically infinite amount of content.
 
-**The Scope is where the value of your Game comes from.** Nobody cares how interesting your Game mechanic is if the levels you give them to use it in aren't well designed. We make prototypes to built out our Game's complexity and prove the idea works, we then need to apply the idea through the scope of our Game.
+Most beginner Game developers focus entirely on complexity, without making Games with a very large scope. Other than old High-School projects, none of my recent Games have had more than 1-2 levels. Most beginners make things quickly and loosely (as they should) and it leads to prototypes and vertical slices with just the minimum amount of content required to demonstrate the idea they came up with. 
 
-**The Game Engine you choose influences the complexity of your Game.** Scope stays relatively the same, as making assets and designing content is separate from programming. Implementation of those assets changes from engine to engine, but the act of designing your Game is engine agnostic.
+This becomes an issue when you want to eventually transition into making full Games, as you don't have much experience in what It's like designing and building out the rest of the content for the Game idea you had come up with. 
+
+### Scope is where the value of your Game comes from
+
+Nobody cares how interesting your Game mechanic is if the levels you give them to use it in aren't well designed. We make prototypes to built out our Game's complexity and prove the idea works, we then need to apply the idea through the scope of our Game.
+
+### The Game Engine you choose influences the complexity of your Game
+
+Scope stays relatively the same, as making assets and designing content is separate from programming. Implementation of those assets changes from engine to engine, but the act of designing your Game is engine agnostic.
 
 I have two commercial Game ideas in my head, one of them is a Game inspired by old Rogue-likes and has high complexity and comparatively lower scope. The other one is a Bullet-Hell that has low complexity and comparatively higher scope. 
 
@@ -77,7 +85,9 @@ My opinion is that larger Genre-Specific engines used to be more useful back whe
 
 Sometimes they can be quite rigid in the kind of Game they want to you make, like with RPGMaker, and all the Games made with it can feel kinda homogenous. I know we can all identify an RPG maker Game simply based on the Menus/User interface. 
 
-Working backwards to try and gain more flexibility and uniqueness in something like RPGMaker would be a comparable amount of work to just building out systems in a general engine. If you're only interested in the scope of your Game and want to minimize complexity, then these tools still do have a place. Although I do enjoy building out Game systems so I'm sure that's influencing my opinion. I don't want them to make the Game for me!
+Working backwards to try and gain more flexibility and uniqueness in something like RPGMaker would be a comparable amount of work to just building out systems in a general engine. 
+
+If you're only interested in the scope of your Game and want to minimize complexity, then these tools still do have a place. Although I do enjoy building out Game systems so I'm sure that's influencing my opinion. I don't want them to make the Game for me!
 
 
 ### 4. Licensing/price:
@@ -110,7 +120,9 @@ At GDC 2023, Juan Linietsky, the lead developer behind Godot, spoke about it's p
 
 Game Engines are expensive and generally made at a loss, with the Games you make with them recouping the costs. This is an inherently risky investment that not all Game companies can afford to front, and engine development has become so expensive and complex nowadays that companies usually all turn to 3rd party engines to license instead, and we've already spoken of the issues behind building your game on tools that aren't yours. 
 
-Godot being as feature complete as it is, as well as being completely free and open source (nobody owns godot), allows companies to potentially fork, modify, and contribute to the engine to fit their needs. The biggest issue with FOSS (Free and Open Source software) is the lack of proprietary support (like directX rendering and console exports), but if you're forking and modifying the engine, you can add whatever you'd like. Godot can become a base engine with many different flavours and distributions for different Game-Development needs, like Linux.
+Godot being as feature complete as it is, as well as being completely free and open source (nobody owns godot), allows companies to potentially fork, modify, and contribute to the engine to fit their needs. 
+
+The biggest issue with FOSS (Free and Open Source software) is the lack of proprietary support (like directX rendering and console exports), but if you're forking and modifying the engine, you can add whatever you'd like. Godot can become a base engine with many different flavours and distributions for different Game-Development needs, like Linux.
 
 If that sounds interesting to you I definitely recommend you check out the aforementioned [GDC Talk](https://youtu.be/XduuHNOGGqI?si=NMxsmGx-OYtXWD_d)
 
@@ -159,22 +171,6 @@ But should you want to?
 # Part 3: Should you make your own engine?
 Some Devs think making your own engine is always a waste of time, others think that using an existing engine at all is cheating, and that Games should be made in C with OpenGL like God Intended. These are obviously two polar sides of the discussion, but there is merit to both opinions.
 
-## Game Engines just make a bunch of guesses
-General Engines don't know what kind of Game you're going to make with them. All they know is that you're (probably) making a Game, which is an interactive computer program. Whether that be a RPG or Fighting Game or First Person Shooter, 2d or 3d, it has no idea. 
-
-It won't know if you'll need Skill-Trees or Rollback-Netcode or Gun-Spray-Patterns, so it works down the tree of requirements for all Games and picks things that are essential to as many Games as possible. Things like:
-
-- Drawing and animating sprites/Models on the screen
-- Making hitboxes and detecting collision
-- Implementing physics simulations
-- Computer networking libraries
-- User Interfaces
-- Physics layers
-- Level editing GUI
-
-The more code it makes for for you the less code you need to make yourself after all. 
-
-Some Engines are more specific in the kinds of assumptions they make. This are where Genre-Specific engines have value, as the more specific assumptions it can make, the less of those things you'll need to make yourself. In a sense the decision between a general engine and a Genre-Specific engine can be compared to the decision between using an engine or making an engine. As you'll still need to spend the time making the complex systems for the kind of Game you'd like to make. 
 
 ## Arguments for making your own engine
 You'll be a goated programmer after making your own engine that's for sure. The masculine urge to make a Game in C and OpenGL is palpable.
