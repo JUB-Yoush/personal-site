@@ -139,8 +139,10 @@ pre{
 }
 
 p,a,li,em{
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     font-size: 1.1rem;
+    
+
 }
 li{
     list-style: square;
