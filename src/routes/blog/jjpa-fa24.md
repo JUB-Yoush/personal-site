@@ -2,7 +2,13 @@
 title: "X things I learned this summer at google"
 date: "2024-08-10"
 ---
+# so how do *I* get into google?
+- first part seems random
 
+## cheap housing just sucks
+## San jose state univerity housing kinda mid
+## airbnb support kinda nice
+## almost got arrested by the TSA
 ## 1. companies that are designed for developers will have good dev experience
 - scotabank was a bunch of workarounds
 - google was deisgned for people to write code
