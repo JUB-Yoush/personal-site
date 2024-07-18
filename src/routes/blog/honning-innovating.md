@@ -4,19 +4,22 @@ date: "2024-06-30"
 ---
 
 ---
-
+thing to add to the other post: You can't kill that dawg inside you.
+also: I am not good at programming.
 # Was Tetris... inevitable?
 If Alexey Pajitnov hadn't created the game circa 1984, would somebody else have instead?
 
-Of course you can ask this question of any video game, or any innovation in anything. But Tetris stands out to me as an game worth asking this questions about because Tetris is so... Perfect.
+Of course you can ask this question of any video game, or any innovation in anything. But Tetris stands out to me as an game worth asking this questions about because it's so... Perfect.
 
 Tetris was complete the day it came out. A few simple ideas came together to create a game that was so simple but so innovate, understood in an instant but could be enjoyed for a lifetime. All of it's few systems work perfectly with one another to make a game where there isn't really anywhere left to take it. The Tetris of 1984 is effectively the Tetris of today, with little modification. Tetris was and continues to be, a perfect video game. Tetris is the final form of itself.
 
-I'll be the first person to tell you that ideas don't spawn out of the ether from nothing, and we can trace back the origin of Tetris to math concepts and Pajitnov playing with Tetromino puzzles as a child, but something about it's simplicity and elegance makes it feel like it just manifested completely finished out of the primordial soup. I can't imagine a world without Tetris, it feels so obvious. How many more Tetrises are there? How many more genres of games are there that nobody has thought to make yet? Do other games have a platonic ideal, a final form that it's waiting to achieve?
+I'll be the first person to tell you that ideas don't spawn out of the ether from nothing, and we can trace back the origin of Tetris to math concepts and Pajitnov playing with Tetromino puzzles as a child, but something about it's simplicity and elegance makes it feel like it just manifested completely finished out of the primordial soup. I can't imagine a world without Tetris, it feels so obvious. How many more Tetrises are there? How many more genres of games are there that nobody has thought to make yet? Do other games and genres have a platonic ideal, a final form that it's waiting to achieve? If so, how do we reach it?
 
 As game designers, we push the bounds of what we know to be possible, but we also focus in on and refine the things we already know are possible, in an effort to make even more fun, engaging, interesting, and good.
 
 I have broadly categorized these two types of thinking into honing and innovating.
+
+In writing this post I've realized that this concept I thoguht was fairly simple has complexities only discoverable once you give yourself the task of trying to understand it. I cannot talk about the entiery of this concept 
 
 the rest of the blog post will just be me talking about this concept.
 
@@ -27,7 +30,7 @@ They're what a "shooter" used to be before DOOM. You dodge the bullets that come
 
 Shmups are also a Dead Genre (my definition being that Large AAA studios no longer make games in that genre.), but In 1998 Shmups weren't dead! They were just.. almost dead. 
 
-The Tokyo based game studio Treasure released Radiant Silvergun to Japanese Arcades (Later ported to the Sega Saturn, and modern consoles later). They took what they knew worked from the long lineage of existing shmup, and honned the ideas present throughout the genre to create what many consider to be the best shmup ever.
+The Tokyo based game studio Treasure released Radiant Silvergun to Japanese Arcades (Later ported to the Sega Saturn, and modern consoles later). They took what they knew worked from the long lineage of existing shmups, and honned the ideas present throughout the genre to create what many consider to be the best shmup ever.
 
 ## a description of radiant silvergun.
 Radiant Silvergun is a big ol juicy game filled with a lot of things. 
@@ -65,19 +68,19 @@ If that was the thought that occurred to you when you read Ikaruga (or clicked o
 
 thats *every mechanic* in the game
 
-It did take the geniuses who came up with rs to later then not only come up with the idea for ika conceptually. Anyone can go "let's make a color swapping shooter", but coming up with every single specific mechanic in ika around the concept of a color swapping game that lend themselves to the design of:
+It did take the geniuses who came up with rs to later then not only come up with the idea for ika conceptually. Anyone can go "let's make a color swapping shooter", but coming up with every single specific mechanic in ika that complements and revolves around the concept of a color swapping game is (resolve sentence):
 
-- Enemies sending return fire obviously allows you to gain charge through killing enemies, but more subtly it also makes you think before shooting, as shooting a same color enemy then swapping will cause you to get hit by the bullets you had gotten sent out.
+- Same color enemies sending return fire obviously allows you to gain charge through killing enemies, but more subtly it also makes you think before shooting, as shooting a same color enemy then swapping will cause you to get hit by the bullets you had them create.
 - Dealing double damage to opposite color enemies greatly increases risk/reward, as you cannot absorb their shots.
-- the charge missles is much more powerful than your standard shot, so thinking about how you'll absorb bullets to get the charge, and when to release it, are factors in thinking about positioning and about what color to be.
+- The charge missles is much more powerful than your standard shot, so thinking about how you'll absorb bullets to get the charge, and when to release it, are factors in thinking about positioning and about what color to be.
 - the comboing system is the most elegant addition, and is an interesting point of comparison from this to rs. in rs, combing is also well designed and thought out and fun, but it is arbitrary. enemies are 1 of 3 colors for the sake of comboing, it's just one seperate system in a game full of seperate systems that all come together. ika ties combing directly into it's central mechanic of colors. enemies aren't black or white to be combo'ed, they're black and white because that's what the entire game is about, comboing is simply a natural extension of the existing color system. (that and the devs thought having you ignore 2/3rds of the enemies on the screen for your score felt bad)
 - Colors and comboing alo help with making how you route your kills across a stage tremendously important, to try and maintain a combo throughout the stage. People sometimes call Ikaruga a puzzle game, because of the way you need to figure out the "perfect" way to go though each level.  
 
 Ikaruga on the surface might appear to be quite similar to other shmups, I thought so as well when drafting up this post. But through a more nuanced understanding you realize that most of the similarities between these games were surface level. 
 
-"Ikaruga is a innovating on shmups while rs is honning in on shmups" but Ikaruga in it's innovating ends up becoming radically different comapred to other shmups. It's far more methodical, more puzzle-esque, it's not about reacting to enemy patterns in quick sucsession, it's about solving the many puzzles the game throws at you involving spread patterns, return fire, combo routing, and when to switch. 
-
 Ikaruga isn't just "double the number of bullets on the screen and make half of them a different color", having the player be able to essentially switch between two different states of bullet location at any time means that the way you prepare bullet patterns fundamentally changes. You can't really take patterns and enemies from rs and throw them in ikaruga and expect it to work.
+
+"Ikaruga is a innovating on shmups while rs is honning in on shmups" but Ikaruga in it's innovating ends up becoming radically different comapred to other shmups. It's far more methodical, more puzzle-esque, it's not about reacting to enemy patterns in quick sucsession, it's about solving the many puzzles the game throws at you involving spread patterns, return fire, combo routing, and when to switch. 
 
 Ikaruga is a game who's design is based solely around one idea or mechanic. rs by comparison is much less focused and is simply really hecking well put together dispite having nothing to frame itself around, no north star, it just balls.
 
