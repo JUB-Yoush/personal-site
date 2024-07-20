@@ -36,7 +36,7 @@ They're what a "shooter" used to be before DOOM. You dodge the bullets that come
 
 In the 90s shmups were on their way out and there was a rich lineage of existing ones to reference. Many of the designers and developers at Treasure grew up playing shmups and had a deep understanding of the genre. They took what they knew worked, and honned the ideas present throughout their inspirations to create what many consider to be the best shmup ever.
 
-## A description of radiant silvergun.
+## A description of Radiant Silvergun.
 Radiant Silvergun is a big ol juicy game filled with a lot of things. 
 
 You got 6 different kinds of shots!!:
