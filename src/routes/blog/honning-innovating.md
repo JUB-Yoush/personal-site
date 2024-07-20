@@ -116,7 +116,7 @@ If you want to focus on improving your system design skills, come up with some i
 If you want to focus on improving your scope/level design skills, come up with interesting ways to apply existing gameplay systems you already know work.
 
 ## And that's it!
-More posts on the way. I'm just like the thinker, except not a bronze sculpture in france. And I think about making video games instead of the human condition or whatever.
+More posts on the way. I'm just like the thinker, except not a bronze sculpture in france. And I think about making video games instead of the human condition.
 
 
 ## Bibliography
