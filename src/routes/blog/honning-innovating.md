@@ -1,6 +1,6 @@
 ---
 title: "Honing vs Innovating in Game Design"
-date: "2024-06-30"
+date: "2024-07-20"
 ---
 
 ---
