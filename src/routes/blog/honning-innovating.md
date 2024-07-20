@@ -29,7 +29,7 @@ So let's talk about Scrolling Shooters, or "shmups".
 (also this post might be a little hard to understand if you have no concept of the games I'm talking about, this would've probably been better as a youtube video or something, who knows, it might become one later.)
 
 
-## shmups are Simple.
+## Shmups are Simple.
 They're what a "shooter" used to be before DOOM. You dodge the bullets that come from the top of the screen and shoot up back at the things shooting at you. Sure there are evolutions to the genre like twin stick and 3d-rail shooters, but let's stick to classic shmups.
 
 1993 The Tokyo based game Studio Treasure released [Radiant Silvergun](https://www.mobygames.com/game/17870/radiant-silvergun/) to Japanese Arcades (Later ported to the Sega Saturn, and modern consoles later). 
