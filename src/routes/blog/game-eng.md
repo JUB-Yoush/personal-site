@@ -1,10 +1,12 @@
 ---
-title: "Thinking about Game Engines"
+title: "(OUTDATED) Thinking about Game Engines"
 date: "2024-05-26"
 ---
 
 ---
 [that co-op touhou rouglike mmo raid simulator came out](https://store.steampowered.com/app/2132850/Rabbit_and_Steel/), [got me thinking about mmo music](https://youtu.be/ExXhr8ch8Mk?si=7GDcate3ClfGoAZo)
+
+Note: I've been meeting a lot of interesting people recently and have had a lot of changes in perspective about this topic. I'm likely going to heavily modify this post soon.
 
 A common question I get from non Game-Dev programmers looking to try out Game-Dev is "what engine should I use"? And as someone who is thinking about some long term commercial Game projects, the tools you commit to using will be a large influence in your development workflow.
 
@@ -66,7 +68,7 @@ Anyway if you're reading this post ig this is me announcing the Game, I'm kinda 
  
  A Game Engine is the software you'll use to develop your Game. There are lots to chose from.
 
-## What factors would influence my choice?
+## What factors should influence your choice?
 Here are some considerations to make with picking a Game Engine.
 
 ### 1. Programming Language:
