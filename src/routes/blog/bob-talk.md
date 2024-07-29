@@ -19,8 +19,8 @@ He views programming very differently then newer programmers because of how it w
 
 Not trying to be a old man yelling at clouds, abstracted high level tools It does make us productive quickly and are ergonomic. There's a reason they're widely adopted. We see learning design patterns as an option but when he was starting it was a necessity. 
 
-## He got a lot of practice communicating information
- He would simply answer questions about game programming on reddit lol.
+## Writing helps to distill information in the most easy to communicate way.
+He'd spend a lot of time in his early years answering questions on reddit. He also blogs and makes lots of notes/journal entries to himself. It also helps you understand your ideas better, and puts abstract concepts into concrete words that can be shared with others.
 
 ## The book "Design Patterns" was an inspiration
  Very inspired by the book "Design Patterns" written by the Gang of Four.
