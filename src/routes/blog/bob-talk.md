@@ -2,7 +2,7 @@
 title: "A Conversation with Robert Nystrom"
 date: "2024-07-28"
 ---
-semi coherent notes from a discussion I was fortunate to have with Robert Nystrom, author of [Game Programming Patterns](https://gameprogrammingpatterns.com/), and [Crafting Interpreters](https://craftinginterpreters.com/)
+Semi coherent notes from a discussion I was fortunate to have with Robert Nystrom, author of [Game Programming Patterns](https://gameprogrammingpatterns.com/), and [Crafting Interpreters](https://craftinginterpreters.com/)
 
 ## Games are just UX. 
 Games provide no real world value. Users are willing to trudge through your awful banking app's ux because they need to get to their money. People don't have any tangible motivation to get through your game if it's not a good experience. Games are especially demanding as they need to be responsive experiences that render to the screen 60 times per second. If your spreadsheet app lags a bit it's not a big deal, if your game does then it could be experience ruining.
