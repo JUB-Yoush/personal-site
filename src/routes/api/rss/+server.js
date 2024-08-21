@@ -1,3 +1,4 @@
+/*
 import { fetchMarkdownPosts } from '$lib';
 
 const siteURL = 'https://jaydenpb.net';
@@ -42,3 +43,4 @@ ${posts
 </channel>
 </rss>
 `;
+*/

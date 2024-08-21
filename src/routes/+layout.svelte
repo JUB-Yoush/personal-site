@@ -129,7 +129,7 @@
                     <a class="" href="/contact">contact</a>
                     <a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
                     <a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
-                    <a class="" href="/api/rss">rss.xml</a>
+                    <a class="" href="/">rss (wip)</a>
                     <a class="" href="/mail">mailing list</a>
                 </div>
             <footer/>
