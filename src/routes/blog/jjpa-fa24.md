@@ -12,7 +12,7 @@ date: "2024-08-10"
 Same problems as other cheap places, but there's also usually NOTHING there, so you need to get everything yourself. Pro Frugality tip, take a trip around student housing trash bins on moving out day, you might be able to find some things that students didn't want to take back with them (I sure got rid of some stuff.)
 
 ## There's so much America
-Why it so big? I didn't do any traveling but everyone was seemingly from a different part of it, each state feels like it's own country in some way. I know there's that thing of Americans thinking there the epicentre of the entire world, but being in there I can tell why they started to think that. There's an entire person's world worth of things in just half of america.
+Too much even, Why it so big? I didn't do any traveling but everyone was seemingly from a different part of it, each state feels like it's own country in some way. I know there's that thing of Americans thinking there the epicenter of the entire world, but being in there I can tell why they started to think that. There's an entire person's world worth of things in just half of america.
 
 ## Airbnb support is pretty good!
 They got me out of a cheap, small, dingy place with mold in the cabinets and hair on the sheets. They also reimbursed some of my subsequent hotel stay!
@@ -27,6 +27,7 @@ Google was designed for people to write code, it's extremely nice to not feel li
 
 ## Wait, sports are fun!
 I got to try a lot of sports while I was there.
+
 ### boxing/muay thai
 This was definitely the one I spent the most time with, my interest in boxing and martial arts is entirely because of [Hajime no Ippo](https://myanimelist.net/manga/7/Hajime_no_Ippo).
 I am delighted to let all my fellow nerds know that there is a significant amount of overlap between concepts in fighting games, and concepts in fighting sports.
@@ -51,10 +52,12 @@ It's like tennis but slower and smaller, and the point/scoring system seems kind
 Spiking the ball is very fun though and is unique to pickleball, it's a real pick up and play sport, party game ahh sport.
 
 ## Wait, sports are expensive!
-Some sports require a lot more infrastructure than others, and that requires you to buy a bunch of stuff. climbing gyms specifically can be quite expensive
+Some sports require a lot more infrastructure than others, and that requires you to buy a bunch of stuff. climbing gyms and boxing gyms can be quite expensive
 
 ## 4. Katy Perry was right actually
 California girls are... undeniable.
+or I guess the beach boys beat her to it, although they have opinions on girls all over america, seems like a lot of generalizing, someone should let these artists know that girls are individuals!
+(but some of those individual girls, irrespective of state/geography or origin, are undeniable)
 
 ## 6. Good intranets are nice
 Not surprising that google has a incredibly good internal search engine, Google in general has a lot of internal tools and documentation that would be incredibly difficult to find without having a good search engine to rely on.
@@ -62,13 +65,13 @@ Not surprising that google has a incredibly good internal search engine, Google 
 ## 7. Free stuff is nice, Creature comforts are valuable.
 Everything you've heard about the bay area google offices is true.
 
-Shout outs to the food team for handling the logistics of feeding so many engineers
+Shout outs to the food team for handling the logistics of feeding so many engineers. It's not easy and the food is still good!
 
-## 8. walkable downtowns are loud
+## 8. Walkable downtowns are loud
 Downtown San Jose is loud and the infrastructure is kinda bad.
 Get earplugs, Use earplugs.
 
-## 9. I was too hard on toronto public transit actually
+## 9. I was too hard on Toronto Public Transit
 I spent a LOT of money on Ubers. Bay area isn't very walkable unless where you're coming from and going to are next to the Caltrain. Imagine the GO Train but there's only one line. That's the Caltrain.
 
 ## 9. The memes weren't exaggerating, mexicans love goku that much.
@@ -81,9 +84,9 @@ I met someone who was confused as to how he figured out how I had found him, con
 Anyway, not associating your personal opinions with your professional opinions allows you to be more flexible and not let what you say or think impact your professional life. Not that I'm secretly racist and don't want to get fired. But big tech companies like Google are nice to work at, but are antithetical to some of my opinions on "good" software. I do like to be open and I enjoy sharing here on this site, so I'm not sure if I'd scrub super personally identifying information off here and make "private" and "professional" websites, but it's something I'm thinking about. I've met people who do and don't separate their personal and professional work, It's up to the individual, and how much they want to share to others.
 
 ## 11. use your benifits you're already paying for them
-- Get massages, talk to someone about your mental health, Get a free E-scooter (although the scooter itself was nice but the process to get and later return it was kinda cumbersome. Why did Fed Ex change their mind about being able to mail a scooter back, after sending one back from the SAME Fed Ex????), Get your wisdom teeth removed (I know an intern who did this, american healthcare moment)
+Get massages, talk to someone about your mental health, Get a free E-scooter (although the scooter itself was nice but the process to get and later return it was kinda cumbersome. Why did Fed Ex change their mind about being able to mail a scooter back, after sending one back from the SAME Fed Ex????), Get your wisdom teeth removed (I know an intern who did this, american healthcare moment, speaking of-)
 
-## I have no oppinion on american healthcare because I didn't have to experince it
+## I have no opinion on american healthcare because I didn't have to experience it
 and maybe that's for the best actually.
 
 ## 12. university house parties are exactly as I anticipated them to be
@@ -92,12 +95,11 @@ and maybe that's for the best actually.
 (Speaking of Scott Pilgrim vs The World, I've been interested in media depictions of contemporary Toronto, and have been trying to actively check out more of them, out of pure curiosity, and maybe being away from home sparked some kind of patriotism in me)
 
 ## You can't expect friends and like-minded people to wander and find you. You need to create spaces and opportunities
-Friends are usually formed in environments with frequent interactions and common goals. Having to try to make friends again in california was harder than anticipated, Google interns are more "normal" than I thought they'd be. I think I've learned that in order to find people who vibe with me, I need to create environments and curate the vibes, and allow like-minded people to find themselves there, wasn't really able to do that in california but it's a lesson I can carry with me into the future.
+Friends are usually formed in environments with frequent interactions and common goals. Having to try to make friends again in california was harder than anticipated, Google interns are more "normal" than I thought they'd be. I think I've learned that i'm a bit more different than other people, and that's fine, but in order to find people who vibe with me, I need to create environments and curate the vibes, and allow like-minded people to find themselves there, wasn't really able to do that in california but it's a lesson I can carry with me into the future.
 
 Friends won't just arrive, you need to go out and seek them.
 
-## 13. BOYS: it takes deliberate effort to open up to others
-
+## 13. Boys, hear me out: it takes deliberate effort to open up to others
 It's unnatural and we aren't taught how to listen to each other, but girls can't solve the male loneliness epidemic. Turns out we CAN talk to other guys about our feelings? And they'll listen? and we can help each other out?
 Eh sounds too good to be true, I should find a new girl on the internet to get a crush on instead.
 
@@ -105,15 +107,22 @@ Eh sounds too good to be true, I should find a new girl on the internet to get a
 My team was filled with people with interesting personalities, lots of very well written people.
 I'm sure Christy will never forget my "production babies" bit (truly one of my finest pieces of trolling)
 I also met other very interesting folks, a big highlight would be being able to speak to bob
-I hope the chat web team is doing well :)
+I hope the chat web team and all my favorite googlers are doing well! if you're a googler reading this then you're definitely one of my favorites :)
 
 ## American bills suck!
-They feel like they're going to fall apart. Canadian money is so much nicer,
+Bills feel like they're going to disintegrate. Canadian money is so much nicer,
 we got an update in 2011 and they missed it.
 $1 bills feel like curse cards in your slay the spire deck, your goal is to get rid of them as fast as possible or your deck starts to become nothing but them.
 
 ## Costs of living is a real thing and it will get you
-aside from $1700 for a dingy spot, I had expected things to cost less, considering 1 USD is about 1.3 CAD. But things cost MORE, IN Usd than they would've been here in CAD.
+aside from $1700 for a dingy spot, I had expected things to cost less, considering 1 USD is about 1.3 CAD. But things cost MORE, IN Usd than they would've been here in CAD. It's the first time I've lived somewhere else so having to mentally adjust how I perceive price was strange. I was going "wow that's expensive" before converting the price from usd to cad in my head.
+
+## There likely a non-insignificant amount of people that think Charles Schulz's Peanuts comics are Japanese
+Which isn't even that unreasonable considering how Japanese "coded" it feels and how hard Uniqlo and other asian brands have been pushing it recently. I had asked one of the Sanrio Girls on my team why Peanuts was so popular among the crowd of people who also liked sanrio characters.
+
+she replied succinctly: "cuz it's cute".
+
+One of my fellow interns thought that Dutch author and illustrator Dick Bruna's Miffy character was Japanese in origin, and considering a similar adoption by popular cute east asian culture, It was easy to see how that mistake could've been made.
 
 ## Good Eats
 [Marufuku Ramen](https://order.toasttab.com/online/marufuku-ramen-sf-1581-webster-st-suite-235) in San Francisco's Japantown. You need to place a reservation at the place and wait, but it's in a mall so there are things to do
@@ -127,17 +136,8 @@ But House of Bagels' Bagels are the best bagels I've ever had (it's also tax fre
 
 [Cali Spartains](http://www.calispartanmexican.com/). The Menu was in spanish and it was cash only 😩. Get yourself some big crispy tacos with a 24oz strawberry horchata. Tell em big Jay sent ya (they don't know who I am)
 
-## There's a non-insignificant amount of people that think Charles Schulz's Peanuts comics are Japanese
-Which isn't even that unreasonable considering how Japanese "coded" it feels and how hard Uniqlo and other asian brands have been pushing it recently. I had asked one of the Sanrio Girls on my team why Peanuts was so popular among the crowd of people who also liked sanrio characters.
 
-she replied succinctly: "cuz it's cute".
-
-One of my fellow interns thought that Dutch author and illustrator Dick Bruna's Miffy character was Japanese in origin, and considering a similar adoption by popular cute east asian culture, It was easy to see how that mistake could've been made.
-
-
-
-
-# rest of the post
+# what I'm up to for the rest of the year (Sept - Dec 2024)
 ## fall season goals:
 - resume japanese, no exchange
 - write about learning things, update game engine post
