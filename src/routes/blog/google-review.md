@@ -8,7 +8,7 @@ date: "2024-08-21"
 - [ALL OVER MELTY BLOOD ~ Melty Blood Actress Again for Limited Edition Original Sound Track.](https://downloads.khinsider.com/game-soundtracks/album/melty-blood-actress-again-all-over-melty-blood-limited-edition-original-sound-track)
 - [Sonic CD Japanese Restored](https://downloads.khinsider.com/game-soundtracks/album/sonic-cd-restored-gamerip-september-23-1993)
 
-# So how do *I* get into Google?
+# So how do I get into Google?
 I don't really have any super specific advice, anything you can read about or what other people can tell you is similar to advice I could give. What I will say is that you should try to focus specifically on the Google interview format, and practice doing phone interviews with your friends. I did around 1 interview a day for 2 weeks leading up to the interviews. (I did so much talking I lost my voice after the real interviews happened)
 
 This post is miscellaneous list of things my summer at Google had taught me. This was originally a part of the JJPA for this season but I decided to separate them for the sake of length.
