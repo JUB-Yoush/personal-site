@@ -126,7 +126,7 @@ Together we can get through it :)
 My team was filled with people with interesting personalities, lots of very well written people.
 I'm sure Christy will never forget my "production babies" bit (truly one of my finest pieces of trolling)
 I also met other very interesting folks, a big highlight would be being able to speak to Robert Nystrom, author of [Game Programming Patterns](https://gameprogrammingpatterns.com/), and [Crafting Interpreters](https://craftinginterpreters.com/)
-I hope the chat web team and all my favorite Googlers are doing well! if you're a Googler reading this then you're definitely one of my favorites :)
+I hope the chat web team and all my favorite Googlers are doing well! If you're a Googler reading this then you're definitely one of my favorites :)
 
 ## 23. American bills suck!
 Bills feel like they're going to disintegrate. Canadian money is so much nicer,

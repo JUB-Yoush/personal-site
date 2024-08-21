@@ -32,9 +32,8 @@ Thanks for stopping by.
 <p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> Currently looking for:
 <br>
 <br>
-Nothing! Google gave me a job for the summer so I'm set for now. Check back in august.</p>
-
-<p>Ya snooze ya loose. and <em>you snost, so you lost.</em></p>
+</p>
+Interesting Part time work if available. Back to being a student and I anticipate myself being quite busy, but if you have something that compensates me for my time and aligns with my interests, reach out!
 
 </div>
 
