@@ -16,7 +16,7 @@ This post is miscellaneous list of things my summer at Google had taught me. Thi
 Not really ordered in any specific way.
 
 ## 1. The bins behind the TSA person at LAX airport are things that haven't gotten checked yet.
-Don't go around and take the things out because you think that's the drop off for people on the other side, because you're concerned you'll miss your flight. Especially if you have a big steam deck that got notified in the scan for it's large battery.  
+Don't go around and take the things out because you think that's the drop off for people on the other side, because you're concerned you'll miss your flight. Especially if you have a big steam deck that got notified in the scan for it's large battery.
 
 Don't (almost) get arrested.
 
@@ -26,13 +26,13 @@ Makes sense, but it definitely hit me for the first time living on my own. But c
 ## 3. Student housing generally isn't very nice either.
 Same problems as other cheap places, but there's also usually NOTHING there, so you need to get everything yourself. Pro Frugality tip, take a trip around student housing trash bins on moving out day, you might be able to find some things that students didn't want to take back with them (I sure got rid of some stuff.)
 
-## 4. There's so much America
+## 4. There's so much America.
 Too much even. Why it so big? I didn't do any traveling but everyone was seemingly from a different part of it, each state feels like it's own country in some way. I know there's that thing of Americans thinking there the epicenter of the entire world, but being in there I can tell why they started to think that. There's an entire person's world worth of things in just half of America.
 
 ## 5. Airbnb support is pretty good!
 They got me out of a cheap, small, dingy place with mold in the cabinets and hair on the sheets. They also reimbursed some of my subsequent hotel stay!
 
-## 6. Companies that are designed for developers will have good dev experience
+## 6. Companies that are designed for developers will have good dev experience.
 My development environment at Scotiabank felt like it was built out of workarounds, like they gave me an accountants laptop and expected me to be able to run a node server.
 
 Google was designed for people to write code, it's extremely nice to not feel like I'm fighting against the system to do my job. And it allows you to do better and more interesting work. Google has a lot of amazing internal tools that take a while to onboard onto but it's worth it.
@@ -61,7 +61,7 @@ Pickleball is the Mario Kart of sports, it's easy to pick up and everyone is inc
 
 It's like tennis but slower and smaller, and the point/scoring system seems very arbitrary (there probably is some solid game design considerations as to why only points scored on your serve count, but it's certainly not intuitive).
 
-Spiking the ball is very fun though and is unique to Pickleball. 
+Spiking the ball is very fun though and is unique to Pickleball.
 
 It's a real pick up and play sport, party game ahh sport.
 
@@ -70,11 +70,11 @@ Some sports require a lot more infrastructure than others, and that requires you
 
 ## 9. Katy Perry was right actually.
 Or I guess the beach boys beat her to it, although they have opinions on girls all over america, seems like a lot of generalizing, someone should let these artists know that girls are individuals!
-But some of those individual girls, irrespective of state/geography of origin or current residence, 
+But some of those individual girls, irrespective of state/geography of origin or current residence,
 
 ...are undeniable.
 
-## 10. Good intranets are nice.
+## 10. Good Intranets are nice.
 Not surprising that Google has a incredibly good internal search engine, Google in general has a lot of internal tools and documentation that would be incredibly difficult to find without having a good search engine to rely on.
 
 ## 11. Free stuff is nice, Creature comforts are valuable.
@@ -96,14 +96,14 @@ I saw poncho's for other anime like One Piece and Naruto. I asked about ponchos 
 It should be challenging for sure, but *how* challenging? Am I mid? I was definitely too reliant on my hosts, and I started trying to focus on figuring out how to find the answer instead of asking for the answer from them, because that's what they were doing after all (they don't know everything, there's too much to know).
 
 ## 16. There are benefits to separating your personal and professional identities on the internet.
-I met someone who was confused as to how he figured out how I had found him, considering he tried to separate his personal and professional programming work. I told him I simply "Found the link to his github from the software's website, his github linked to his personal site, which linked to his linkedin, which listed he worked at Google. Looking him up on Google's internal search, the Linkedin pfp and Google pfp matched.". So reasonable lengths, really. 
+I met someone who was confused as to how he figured out how I had found him, considering he tried to separate his personal and professional programming work. I told him I simply "Found the link to his github from the software's website, his github linked to his personal site, which linked to his linkedin, which listed he worked at Google. Looking him up on Google's internal search, the Linkedin pfp and Google pfp matched.". So reasonable lengths, really.
 
-Anyway, not associating your personal opinions with your professional opinions allows you to be more flexible and not let what you say or think impact your professional life. Not in a "time to be racist" kinda way But in a "big tech companies like Google are nice to work at, but their products have a lot of qualities that antithetical to some of my opinions on good software" kinda way. 
+Anyway, not associating your personal opinions with your professional opinions allows you to be more flexible and not let what you say or think impact your professional life. Not in a "time to be racist" kinda way But in a "big tech companies like Google are nice to work at, but their products have a lot of qualities that antithetical to some of my opinions on good software" kinda way.
 
 I do like to be open and I enjoy sharing here on this site, so I'm not sure if I'd scrub super personally identifying information off here and make separate "personal" and "professional" websites, but it's something I'm thinking about. I've met people who do and don't separate their personal and professional work, It's up to the individual.
 
 ## 17. Use your benefits you're already paying for them.
-Get massages, talk to someone about your mental health, Rent an E-scooter for Free (although the scooter itself was nice but the process to get and later return it was kinda cumbersome. Why did Fed Ex change their mind about being able to mail a scooter back, after sending one back from the SAME Fed Ex????), Get your... wisdom teeth removed? One of the interns I know did that American Healthcare I guess. Speaking of-  
+Get massages, talk to someone about your mental health, Rent an E-scooter for Free (although the scooter itself was nice but the process to get and later return it was kinda cumbersome. Why did Fed Ex change their mind about being able to mail a scooter back, after sending one back from the SAME Fed Ex????), Get your... wisdom teeth removed? One of the interns I know did that American Healthcare I guess. Speaking of-
 
 ## 18. I have no personal opinion on american healthcare because I didn't have to experience it.
 And maybe that's for the best actually.
@@ -148,7 +148,7 @@ One of my fellow interns thought that Dutch author and illustrator Dick Bruna's 
 
 [House of Bagels](https://www.houseofbagels.co/home) in San Jose was awarded best bagels on the west coast or something? Yeah I believe that. I know New Yorkers are approaching my location rapidly to tell me how great their bagels are and yeah they're probably better, but as someone who's only really eaten Tim Hortons Bagels- actually a side note about that:
 
-### PSA TO ALL AMERICANS: Tim Hortons isn't good, it's just cheap and consistent
+#### PSA TO ALL AMERICANS: Tim Hortons isn't good, it's just cheap and consistent
 and the quality has the declining as of late. It's tragic.
 
 But House of Bagels' Bagels are the best bagels I've ever had (it's also tax free and they don't ask for tips).
