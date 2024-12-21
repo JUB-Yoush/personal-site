@@ -5,8 +5,9 @@ let gif_number = Math.floor(Math.random() * gif_tuple.length)
 </script>
 
 <svelte:head>
-    <title>Jaydenpb dot net</title>
-    <meta property="og:title" content="Jaydenpb dot net">
+
+<title>Jaydenpb dot net</title>
+<meta property="og:title" content="Jaydenpb dot net">
 </svelte:head>
 
 # /jaydenpb.net
@@ -19,25 +20,19 @@ let gif_number = Math.floor(Math.random() * gif_tuple.length)
 <br>
 
 ## Hi
-I'm Jayden, a computer science student at the Lassonde school of Engineering (a school at York University)
 
+I'm Jayden, a computer science student at the Lassonde school of Engineering (a school at York University)
 
 While you're here, feel free to learn more [about me](/about), check out what I'm [up to](/projects) or what I'm [thinking about](/blog).
 
-
 Thanks for stopping by.
-
 
 <div class="box">
 <p>If you didn't know, <a href="/resume">I'm very hireable 😳.</a> Currently looking for:
 <br>
 <br>
 </p>
-Interesting Part time work if available. Back to being a student and I anticipate myself being quite busy, but if you have something that compensates me for my time and aligns with my interests, reach out!
-
+Summer 2025 Internships! If you're the hiring kinda type, reach me through the contact info in the footer.
 </div>
 
 Also, if you go to York and are interested in game development, [gdyu.club](https://www.gdyu.club/).
-
-
-
