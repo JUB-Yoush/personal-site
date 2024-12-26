@@ -29,6 +29,7 @@
 		<a href="/about">about</a>
 		<a href="/resume">hire me 😳</a>
 		<a href="/projects">projects</a>
+		<a class="" href="/mail">mail list</a>
 		<a href="/blog">blog</a>
 		<a on:click={change_theme}>{themes[curr_theme]}</a>
 	</nav>
@@ -43,7 +44,6 @@
 				<a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
 				<a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
 				<a class="" href="https://buttondown.com/jaydenpb/rss">rss</a>
-				<a class="" href="/mail">mailing list</a>
 			</div>
 			<footer />
 		</footer></body
