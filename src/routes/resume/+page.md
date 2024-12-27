@@ -9,6 +9,7 @@
     width:70vw;
     max-width:640px;
     height:85vh;
+    max-height:800px;
     }
 
 </style>
