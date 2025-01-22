@@ -1,9 +1,11 @@
 ---
 title: 'Favorite Things Fall 2024'
-date: '2025-01-01'
+date: '2025-01-22'
 ---
 
 ---
+
+[Thanks for reading btw](https://youtu.be/x0c9bN46ii0?si=6kKKFUZavb2OAln5)
 
 Happy 2025!
 
