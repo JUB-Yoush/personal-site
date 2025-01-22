@@ -60,11 +60,11 @@ Metaphor is the Lost Odyessy of Atlus JRPGs. It feels like they took good ideas 
 You got the persona calendar and social stat system, the SMT press-turn combat system, Etrian Odyessy Classes, and a Job system reminiscent of Final Fantasy Tactics, a game you all know I (enjoy quite a bit.)[https://youtu.be/nIqUgEYb7GM?si=SXyWxZyT8i_Ql1-8&t=990]
 I'm not too far in, but I've been having a good time! JRPGs have always been a comfort genre for me, and Metaphor is a lot of stuff I like in one package.
 
-## I thrifted a sick jacket
+## [I thrifted a sick jacket]()
 
 That's all.
 
-## The very nice brampton drivetest receptionist
+## [The very nice brampton drivetest receptionist]()
 
 She was very kind and it made me feel very nice.
 
@@ -92,7 +92,7 @@ I'm a big fan of Lusa and her extravagant and detailed presentation and polish i
 
 I want to open that gate! ...should I want to open that gate?
 
-## Satoshi Kon's [Perfect Blue](https://www.imdb.com/title/tt0156887/?ref_%3Dnv_sr_srsg_0) and [Tokyo Godfathers](https://www.imdb.com/title/tt0388473/)
+Satoshi Kon's [Perfect Blue](https://www.imdb.com/title/tt0156887/?ref_%3Dnv_sr_srsg_0) and [Tokyo Godfathers](https://www.imdb.com/title/tt0388473/)
 
 Good movies, watched both of them at the Revue on Bloor.
 They were confusing, Perfect Blue much more than Tokyo Godfathers. I think I'd need to re-watch them to have any coherent oppinions on them, but they were enjoyable on the first watch.
