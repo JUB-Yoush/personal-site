@@ -1,11 +1,9 @@
 ---
-title: 'The Universal 50% Rule.'
+title: 'The Universal 50% Rule'
 date: '2025-02-26'
 ---
 
 ---
-
-# The Universal 50% Rule
 
 The 50% rule is a rule that students in the [DrawaBox](https://drawabox.com/) online art course must follow. It was created by Irshad "Uncomfortable" Karim. It is as follows:
 
