@@ -13,7 +13,7 @@ The 50% rule is a rule that students in the [DrawaBox](https://drawabox.com/) on
 
 Other than the 250 box challenge, it's probably the teaching method DrawaBox is most famous for. Uncomfortable does a great job at justifying it's existence and value within the context of drawing.
 
-Later on in my japanese study, I encountered a resource: ["A Year to Learn Japanese"](https://docs.google.com/document/d/10bRzVblKVOsQJjTc2PIi1Gbj_LrsJCkMkh0SutXCZdI/edit?tab=t.0) that also mentions using a 50% rule in your Japanese study (directly citing DrawaBox as it's inspiration), but for japanese study instead of drawing. That was when I started to consider how applicable the rule was to any kind of learning.
+Later on in my japanese study, I encountered a resource: ["A Year to Learn Japanese"](https://docs.google.com/document/d/10bRzVblKVOsQJjTc2PIi1Gbj_LrsJCkMkh0SutXCZdI/edit?tab=t.0) that also mentions using a 50% rule in your Japanese study (directly citing DrawaBox as it's inspiration). That was when I started to consider how applicable the rule was to any kind of learning.
 
 Almost any skill can be seperated into the two halves of the 50% rule: Studying the thing, and doing the thing. Studying the thing is learning the information and skills relevant to performing the task, and practicing those skills in isolation. Studying is the input. Doing the thing is the output. It's when you try (and usually fail at the beginning) to do the thing yourself.
 
@@ -23,7 +23,7 @@ Doing the thing is always the goal, studying simply helps us learn how to get th
 
 It's important to consciously think about this divide between studying and doing, because if we aren't actively trying to balance the 50% rule, we'll naturally gravitate towards the studying half. To our brains, working on both sides feel the same, but studying something instead of doing it is much easier and safer. There are no risks to take in trying and failing in study, as It's not the thing we're actually trying to do, it's just things to prepare us to do the things we're trying to do, which we'll get to... eventually.
 
-Learning through actually doing the thing is where the learning happens, but it's much more difficult. Failure is very scary, but it's in failing that we end up learning the most. Scott H Young's Book Ultralearning recommends making a majority of your practice "doing" the thing. Additionally The 50% is the maximum amount of studying, not the maximum amount of doing. More doing is always better.
+Learning through actually doing the thing is where the learning happens, but it's much more difficult. Failure is very scary, but it's in failing that we end up learning the most. Scott H Young's Book [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) recommends making a vast majority of your practice "doing" the thing. Additionally The 50% is the maximum amount of studying, not the maximum amount of doing. More doing is always better.
 
 Spending a lot of time studying without application also sets up expectations of quality that aren't justified. It's how people get stuck in tutorial hell. You could spend years learning about boxing, for example: you learn about different stances, footwork, types of punches, how to breathe, and how to build endurance. You could even read all of Hajime no Ippo!
 
