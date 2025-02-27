@@ -1,6 +1,6 @@
 ---
 title: 'The Universal 50% Rule.'
-date: '2025-01-22'
+date: '2025-02-26'
 ---
 
 ---
