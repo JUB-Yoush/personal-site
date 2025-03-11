@@ -1,16 +1,16 @@
 ---
-title: "93 Days into learning Japanese"
-date: "2024-04-07"
-wip: "false"
+title: '93 Days into learning Japanese'
+date: '2024-04-07'
+wip: 'false'
 ---
 
-### Edits:
-2024-06-29: grammar and formatting improvements I also mention things the post leaves out.
----
+### Edits
+
+## 2024-06-29: grammar and formatting improvements I also mention things the post leaves out
 
 [This band did the opening for the Scott Pilgrim Anime!](https://youtu.be/KdrP8A7jz5M?si=u0CcLGyPMnmDhsUC)
 
-# こんにちは！　こんばんは！
+# こんにちは！　こんばんは
 
 ジェイデンだ, これが私のブログ！
 
@@ -35,13 +35,15 @@ However it's based in a logic very different from that of English or other Europ
 So what's up with Japanese?
 
 ## 仮名 KANA: Japan's Alphabet (or lack thereof)
+
 The first thing you'll notice about Japanese is that the squiggles we're used to deriving meaning from aren't present. Instead are wildly different looking runes we must decipher. The alphabet we know is gone, and there is no alphabet to replace it. Instead, Japanese is built on a syllabary.
 A syllabary is a collection of symbols that represent syllables. Each symbol (kana) in Japanese is a Syllable, with a constant at the front and a vowel at the end.
 
 some examples are:
+
 - K + A = か(KA)
 - N + A = な(NA)
-- かな = Kana!!! 
+- かな = Kana!!!
 
 (Wow it's been 3 minutes and you can already read Japanese!?)
 
@@ -52,6 +54,7 @@ Wow! Japanese seems like a well thought out language free of any redundancies or
 Well...
 
 ### Two sets of kana
+
 The example kana I wrote were in the **Hirigana** Kana Set. It's the default Japanese character set and the first one you'll learn.
 There is also another set of Kana, **Katakana**.
 
@@ -72,6 +75,7 @@ So just learn two sets of like 46 symbols and then I can read whatever I see rig
 Remember how I alluded to redundancies earlier?
 
 ## 漢字 KANJI
+
 Kanji are chinese characters that are a hold-over from when Japanese was forked from Chinese. Each Kanji is a unique symbol that has a kana reading and meaning attached with it.
 
 For example: the Kanji for "I" (as in the first person pronoun) is 私, and it's reading is し.
@@ -80,7 +84,7 @@ There are about: 47,000 Kanji in total according to [this big old book.](https:/
 
 That's a lot to learn.
 
-However there are *only* 2136 Kanji in the [Jōyō Kanji](https://www.kanshudo.com/collections/joyo_Kanji) guide used by the Japanese ministry of education.
+However there are _only_ 2136 Kanji in the [Jōyō Kanji](https://www.kanshudo.com/collections/joyo_Kanji) guide used by the Japanese ministry of education.
 
 Significantly less! but still over two thousand.
 
@@ -99,7 +103,8 @@ Kanji are generally organized by stroke count, but that just puts them in groups
 
 But there is another system that we can use to break down and identify Kanji:
 
-### Radicals!!
+### Radicals
+
 Radicals are the individual symbols used to make up Kanji, know your radicals and you can use them to not only look up Kanji based on the radicals they use, but also use the names of each radical to help make mnemonics to help with memorizing all those Kanji.
 
 Some radicals are Kanji by themselves like "person" (人) and "mouth" (口) being used to make "prison" (囚).
@@ -114,7 +119,7 @@ Sure it might take time to learn them all, but it's not a complicated process.
 
 Just put about 2100+ characters in your head and now I can ACTUALLY read everything I see?
 
-*...kinda.*
+_...kinda._
 
 ## 訓読み VS 音読み KUNYOMI VS ONYOMI
 
@@ -122,11 +127,12 @@ Kanji are not words. They are used to make words, and some words are just single
 
 When Japanese was forking from chinese they ALSO to resolve the merge conflicts between the existing Chinese Kanji meanings and the new Japanese Kanji meanings they were coming up with. Instead of choosing to reject or embrace tradition, they simply chose to not choose, and kept both meanings.
 
-Surprise! Each Kanji has a *Kun* Reading and *On* Reading.
+Surprise! Each Kanji has a _Kun_ Reading and _On_ Reading.
 
 Which one do you use?
 
 The general rule is:
+
 - If it's a word that has two or more Kanji next to each other, it uses their On (The Kanji reading you already learned) reading.
 - If the Kanji is alone or separated by a particle like (の), use the Kun (The new reading you haven't learned) reading.
 
@@ -134,10 +140,10 @@ Person (人)'s On reading is じん, but it's Kun reading is ひと
 
 So the word for "Person" would be 人＝ひと, because the Kanji is by itself it uses it's Kun reading, but The word for "Black Person" would be 黒人 = こくじん, because it's two Kanji together they both use their On readings
 
-So you need to memorize 2136 * 2 readings? No. Some Kanji thankfully have the same Kun and On Readings, while some have multiple different Kun and On Readings, the Kanji for life (生) has 20 different ways it could be read depending on the word it's in. reading it is as confusing as it seems.
-
+So you need to memorize 2136 \* 2 readings? No. Some Kanji thankfully have the same Kun and On Readings, while some have multiple different Kun and On Readings, the Kanji for life (生) has 20 different ways it could be read depending on the word it's in. reading it is as confusing as it seems.
 
 ## Rendaku
+
 Going back to Hirigana and Katakana quickly, some Kana can have the constant before the vowel modified by adding a ” or ° to it:
 さ = SA
 ざ = ZA
@@ -149,17 +155,18 @@ The word People, 人人 (although it would actually be written 人々 because　
 Although it [isn't completely random](https://www.tofugu.com/Japanese/rendaku/), you'll likely just end up memorizing which words get rendaku'ed or not.
 
 ## Grammar
+
 so you've memorized 2100+ Kanji and 6000+ vocabulary words!
 
-Time to use them! 
+Time to use them!
 
 (although front loading all your kanji and vocabulary study before you try any reading is a bad idea)
 
-There (traditionally) are no spaces in Japanese , So Reading Japanese can *sometimes* be a nightmare. Because there is no separation between where one word ends and another one begins, you need to become a regex algorithm that trys to chunk together which kana are parts of which word, and which kana are used as grammar particles.
+There (traditionally) are no spaces in Japanese , So Reading Japanese can _sometimes_ be a nightmare. Because there is no separation between where one word ends and another one begins, you need to become a regex algorithm that trys to chunk together which kana are parts of which word, and which kana are used as grammar particles.
 
 There are some helpful rules like verbs always end with "xU" vowel kana and adjectives always end with the い Kana.
 
-and Kanji does make this regexing *a bit* easier, as the kana in a Kanji will never be used as a grammar particle.
+and Kanji does make this regexing _a bit_ easier, as the kana in a Kanji will never be used as a grammar particle.
 
 ...I think?
 
@@ -169,6 +176,7 @@ Also, words that can be implied through context are frequently omitted, sorta li
 
 English is a Subject Verb Object Language:
 "I ate the apple"
+
 - I = Subject
 - ate = Verb
 - the apple = Object
@@ -176,6 +184,7 @@ English is a Subject Verb Object Language:
 Japanese is commonly labeled as a Subject Object Verb language, and it's sorta like that,
 "私がリンゴをたべて"
 "Watashi ga ringo wo tabete"
+
 - watashi ga = "I"
 - ringo = "Apple"
 - wo tabete = "Ate"
@@ -200,9 +209,9 @@ The interesting thing is that these grammar particles could be structured in any
 
 Tarō wa toshokan de Noriko wo mimashita.
 
-としょかん でたろう は  のりこ を みました。
+としょかん でたろう は のりこ を みました。
 
-toshokan de Tarō wa  Noriko wo mimashita.
+toshokan de Tarō wa Noriko wo mimashita.
 
 のりこ を としょかん で たろう は みました。
 
@@ -212,17 +221,19 @@ All mean the same thing!
 
 There's a general pattern all follow (you usually start with the subject marker), but it's interesting that the meaning is retained regardless of order.
 
-### Hi! Jayden from the future here.
-I completely forget to mention the concept of the politeness system that is baked into the language. To keep it simple, there is "casual" Japanese, and "polite" japanese. The primary differences are seen in how verbs are conjugated. There's also Keigo, a system of honorifics and ways you say certain words and phrases. 
+### Hi! Jayden from the future here
+
+I completely forget to mention the concept of the politeness system that is baked into the language. To keep it simple, there is "casual" Japanese, and "polite" japanese. The primary differences are seen in how verbs are conjugated. There's also Keigo, a system of honorifics and ways you say certain words and phrases.
 
 this is a quick addendum so for more info check out [this](https://8020japanese.com/informal-vs-polite-japanese/) and [this](https://www.tofugu.com/japanese/keigo/)
 
 ## Immersion != Learning
+
 A little note on learning, not only Japanese but language in general. Languages are fundamental to the human experience, our brains are hard-wired to be able to pick up on them as fast as possible, as language is essential to communication, which is essential to survival. Language is nessicary to communicate important information your fellow tribe members to keep you all from from pre-maturely exiting the gene pool.
 
-But then why is language learning so difficult for so many people? It's because our brains only treat languages as languages when *we* treat them as languages, not just as a hobbies, or as things we do for fun, but as the means in which we must communicate ideas.
+But then why is language learning so difficult for so many people? It's because our brains only treat languages as languages when _we_ treat them as languages, not just as a hobbies, or as things we do for fun, but as the means in which we must communicate ideas.
 
-Immersion is great for language learning, because you will absorb the language though osmosis (you won't), but because you have the opportunity to treat the language as the primary means of communication. There are lots of people who live in Tokyo for years and don't pick up on any Japanese, because of the abundance of english along with the abundance of japanese, they don't need to ever treat Japanese like a language unless they want to.
+Immersion is great for language learning, not because you will absorb the language though osmosis (you won't), but because you have the opportunity to treat the language as the primary means of communication. There are lots of people who live in Tokyo for years and don't pick up on any Japanese, because of the abundance of english along with the abundance of japanese, they don't need to ever treat Japanese like a language unless they want to.
 
 So is "genuine" language learning reserved for only those who have the luxury to spend time physically immersed in a country in which their target language is spoken?
 
@@ -231,6 +242,7 @@ No.
 Of course being in a place where you language is spoken would help a lot, but you're unable to be in a physical space, you can find places in the things you do that can be boxed off from english, to make the primary means of communication in that section of your life be your target language.
 
 Some examples of this boxing off could be:
+
 - All video games/Anime/Manga must be consumed in your target language.
 - Follow Blogs or Content creators who only make content in your target language.
 - Make a Dungeons and Dragons party of other target language learners and only play in that language (I actually am interested in doing this, not nearly good enough yet, but HMU if you're also interested)
@@ -239,15 +251,16 @@ Some examples of this boxing off could be:
 
 You want to create spaces where your language is the primary means of communication, even if that "space" isn't a physical one a place where it's commonly used.
 
-
 ## What I use to learn
+
 Things I use to learn Japanese if you're interested:
+
 - [Wanikani](https://www.wanikani.com/): SRS Deck application for Radicals, Kanji, and Vocabulary.
 - [Bunpro](https://bunpro.jp): SRS Deck application for grammar.
 - [Jisho](https://jisho.org/): Dictionary.
 - [ichi.moe](https://ichi.moe/): Sentence Parser (does the regex for you).
-- [Curedolly]( https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj): Eclectic Vtuber who teaches grammar well, sadly passed away but her videos are all still great resources.
-
+- [Curedolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj): Eclectic Vtuber who teaches grammar well, sadly passed away but her videos are all still great resources.
 
 ## That's all cya
+
 Play Void Stranger.
