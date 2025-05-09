@@ -50,7 +50,7 @@ GDYU participated in the Canadian push up challenge for the Canadian Mental Heal
 
 I can do pull ups and dips in my basement now!
 
-## [1440p monitor]
+## [1440p monitor]()
 
 1080p displays are too small for text editing, especially after getting used to the extra screen size on my Framework 13 and My massive 4k monitor at Google. 1440p lets me have more text on screen and comfortably fit two windows next to each other in i3. I forgot the specific model I got but it's a 144hrz Dell one. It was on sale.
 
