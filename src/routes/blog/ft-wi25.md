@@ -12,7 +12,7 @@ tags: ['favorite-things']
 
 Little reviews of things I checked out or did but don't really mention anywhere else.
 
-## [Ginger Root + Japanese Breakfast at Massey Hall]()
+## Ginger Root + Japanese Breakfast at Massey Hall
 
 I saw Ginger Root!!! It was a phenomenal show, he had a dude with an over the shoulder camera on stage recording the performance onto a projector, moving and adding visual effects in time to the music he also was speaking into a landline phone on stage to emulate his vocal compression in a live context. Ginger Root is super commited to a specific aesthetic and sound and the effort put into maintaining that live is recognized and appreciated. Also him playing like 3 synths at the same time was cool.
 
