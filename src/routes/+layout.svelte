@@ -1,4 +1,6 @@
 <script>
+	//import { preloadCode, preloadData } from '$app/navigation';
+
 	import { page } from '$app/stores';
 	import '$lib/css/reset.css';
 	import '$lib/css/main.css';
