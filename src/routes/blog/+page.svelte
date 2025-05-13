@@ -1,18 +1,22 @@
 <script>
 	export let data;
-	console.log(data.posts);
 	import { page } from '$app/stores';
-	export const tagFilter = $page.url.searchParams.get('tag') ?? 'all';
-	let postsquery = [];
+	let tagFilter = $page.url.searchParams.get('tag') ?? 'all';
+	export let allTags = new Set();
+
 	if (tagFilter != 'all') {
+		let postsquery = [];
 		for (const post of data.posts) {
-			//console.log(post.meta.tags);
+			post.meta.tags.forEach((tag) => {
+				allTags.add(tag);
+			});
 			if (post.meta.tags.includes(tagFilter)) {
 				postsquery.push(post);
 			}
 		}
+		data.posts = postsquery;
+		allTags = Array.from(allTags);
 	}
-	data.posts = postsquery;
 </script>
 
 <h1>~/blog</h1>
@@ -22,16 +26,26 @@
 		href="https://buttondown.com/jaydenpb/rss">rss</a
 	> support.
 </p>
+<h2>Tags:</h2>
+<div class="tags" data-sveltekit-reload>
+	{#each allTags as tag}
+		<a href="/blog?tag={tag}">#{tag}</a>
+	{/each}
+</div>
+
+<h2>Posts:</h2>
 <ul>
 	{#each data.posts as post}
-		<li>
+		<li data-sveltekit-reload>
 			<a class="blog-title" href={post.path}>
 				{post.meta.title}
 			</a>
 			<br />
 			Posted: {post.meta.date}
 			<br />
-			tags: {post.meta.tags}
+			{#each post.meta.tags as tag}
+				<a class="inline-tag" href="/blog?tag={tag}">#{tag}</a>
+			{/each}
 		</li>
 	{/each}
 </ul>
@@ -44,5 +58,17 @@
 
 	li {
 		padding-bottom: 1.5rem;
+	}
+	.inline-tag {
+		padding-right: 8px;
+	}
+	.tags {
+		padding-bottom: 8px;
+		display: flex;
+		max-width: 80vw;
+		flex-wrap: wrap;
+	}
+	.tags > a {
+		margin: 8px;
 	}
 </style>
