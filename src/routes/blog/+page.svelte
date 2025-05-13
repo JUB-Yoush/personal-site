@@ -1,5 +1,18 @@
 <script>
 	export let data;
+	console.log(data.posts);
+	import { page } from '$app/stores';
+	export const tagFilter = $page.url.searchParams.get('tag') ?? 'all';
+	let postsquery = [];
+	if (tagFilter != 'all') {
+		for (const post of data.posts) {
+			//console.log(post.meta.tags);
+			if (post.meta.tags.includes(tagFilter)) {
+				postsquery.push(post);
+			}
+		}
+	}
+	data.posts = postsquery;
 </script>
 
 <h1>~/blog</h1>
@@ -9,7 +22,6 @@
 		href="https://buttondown.com/jaydenpb/rss">rss</a
 	> support.
 </p>
-
 <ul>
 	{#each data.posts as post}
 		<li>
@@ -17,7 +29,9 @@
 				{post.meta.title}
 			</a>
 			<br />
-			Published {post.meta.date}
+			Posted: {post.meta.date}
+			<br />
+			tags: {post.meta.tags}
 		</li>
 	{/each}
 </ul>

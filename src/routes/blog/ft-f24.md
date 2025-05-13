@@ -1,6 +1,8 @@
 ---
 title: 'Favorite Things Fall 2024'
 date: '2025-01-22'
+
+tags: ['favorite things']
 ---
 
 ---
@@ -57,7 +59,7 @@ Big recommendation if you're a game developer who feels creatively bankrupt. Or 
 ## [Metaphor Re: Fantazio](https://www.mobygames.com/game/231733/metaphor-refantazio/)
 
 Metaphor is the Lost Odyessy of Atlus JRPGs. It feels like they took good ideas across their entire catalogue and cobbled them together into a new game.
-You got the persona calendar and social stat system, the SMT press-turn combat system, Etrian Odyessy Classes, and a Job system reminiscent of Final Fantasy Tactics, a game you all know I (enjoy quite a bit.)[https://youtu.be/nIqUgEYb7GM?si=SXyWxZyT8i_Ql1-8&t=990]
+You got the persona calendar and social stat system, the SMT press-turn combat system, Etrian Odyessy Classes, and a Job system reminiscent of Final Fantasy Tactics, a game you all know I [enjoy quite a bit.](https://youtu.be/nIqUgEYb7GM?si=SXyWxZyT8i_Ql1-8&t=990)
 I'm not too far in, but I've been having a good time! JRPGs have always been a comfort genre for me, and Metaphor is a lot of stuff I like in one package.
 
 ## [I thrifted a sick jacket]()

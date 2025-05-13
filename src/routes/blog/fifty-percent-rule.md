@@ -1,6 +1,7 @@
 ---
 title: 'The Universal 50% Rule'
 date: '2025-02-26'
+tags: ['productivity', 'idea']
 ---
 
 ---

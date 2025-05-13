@@ -1,9 +1,11 @@
 ---
-title: "Jayden Journal Public Access: Fall 2024"
-date: "2024-08-22"
+title: 'Jayden Journal Public Access: Fall 2024'
+date: '2024-08-22'
+
+tags: ['jjpa', 'reflection']
 ---
 
-[*looks wistfully out of window  "I'll see you eventually, Hana-chan..."](https://youtu.be/Qck-S66djWs?si=w7iB5T42p_wWkkxp)
+[\*looks wistfully out of window "I'll see you eventually, Hana-chan..."](https://youtu.be/Qck-S66djWs?si=w7iB5T42p_wWkkxp)
 
 # What I'm up to for the rest of the year (Sept - Dec 2024)
 
@@ -11,15 +13,18 @@ Like I said, we're gonna keep this quick (as quick as it can be):
 
 See the [previous post](/blog/google-review) to find out how my summer went.
 
-## December is the deadline.
+## December is the deadline
+
 I promised someone very cool something very cool by the end of december. I'm not actually sure what that cool thing will be yet. But I'll decide it, and I'll share it with the cool person (and probably everyone else too).
 
 It will probably be video game related? Although I'm not sure if it'll be one specific thing or a collection of things I've amassed throughout the 4 months. Not sure!
 
 ## "So, Exchange Time?"
+
 I will not be going on exchange to Tokyo in the Fall. It's Nihongover.
 
 There are a lot of reasons for this decision, but as I kept pushing for it to happen there just kept being more and more things that were making it a less and less reasonable idea:
+
 - My courses weren't signed off on so the classes wouldn't count towards graduating, pushing my grad back a semester.
 - I had to pay an entire semester worth of tuition to york while also trying to take my Ged-Ed requirements online, only to find out that I'm not allowed to take year long courses while on exchange?
 - The semester at the exchange school ended in february, so I'd have to do the first month of my winter classes while I was there.
@@ -34,7 +39,8 @@ But it doesn't mean Japanese language studying is also over, that's still going 
 
 Doing Bunpro and Wanikani and Kamesame SRS decks every day is kinda overwhelming, so I might try to pick some tools that I can do more consistently. SRS algorithms are hard to tune for different amounts of work, as they're designed for you to always do all the work they give you immediately, and the amount of work you're given was decided by how many reviews you chose to do a while ago. Being stuck in a pile of 350+ review cards is certainly overwhelming, but slowly (and with use of the vacation mode to preview new reviews from showing up) I'll clear them all out.
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Come up with a primary daily study schedule as well as a modified one for when I have no time/energy that day.
 - [ ] Learn half of the N4 Grammar Points.
 - [ ] Get through all the lvl 0 Tadoku readers.
@@ -42,6 +48,7 @@ Doing Bunpro and Wanikani and Kamesame SRS decks every day is kinda overwhelming
 - [ ] Check out York's Japanese student association, Try having a conversation in Japanese.
 
 ## School
+
 I haven't been in classes since April of 2023, about 16 months of not being a student. I feel quite different then I did back then, I mean, this entire blog didn't exist!
 
 I want to set up a new organization/productivity method for my notes and agenda using [Org mode](https://orgmode.org/), my [raspberry pi server](https://www.raspberrypi.com/), [syncthings](https://syncthing.net/), and my [boox tablet](https://shop.boox.com/en-ca/products/novaair). Inspired by [no one in particular](https://youtu.be/IZX-cDR6IQM?si=i3wqas16CFO5L259).
@@ -52,20 +59,23 @@ I'd also like to get more strict about improving productivity through optimizing
 
 Hope I don't fail anything!
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Make a Pomodoro timer (or just modify an existing one to have the qualities you want)
 - [ ] Set up new productivity system involving all my new toys and tricks.
 - [ ] Set up a focused mode on your devices to improve my ability to lock in.
 - [ ] Don't fail my classes!
 
 ## Work
+
 I am unemployed.
 
 For now at least, as my part-time teaching home-schooled kids job will be resuming soon. I've finally decided that we're moving away from scratch and onto text based programming languages, which is nice (scratch is good but it has quirks you brush up against constantly).
 
 So I'll need to decide on what I'm teaching and how I'm teaching it. I've never really thought about "How I'd learn programming if I started over" but I think now is the time to do that. I'll focus on understanding and comprehension, and use lots of existing resources (why re-invent the wheel). I'll likley consolidate my "textbook" into some kind of markdown book and release it (for free)
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Consolidate resources and plan curriculum.
 - [ ] Teach it.
 
@@ -80,18 +90,21 @@ Finally I also wanted to update the post on game engines, as my opinions have ch
 
 Outside the blog itself, the site has some known issues I'd like to fix. It would also be nice to be able to write posts in Org files instead of Markdown, but It seems like all the solutions for those involve specific static site generators.
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Write post about Learning.
 - [ ] Write post about Books.
 - [ ] Update post about game engines.
 - [ ] Fix issues with site.
 
-
 ## Health
+
 ### Physical
+
 I was doing kickboxing training 2-3 times a week at Google, so hopefully I can keep that momentum to continue to workout here. York does have a Muay Thai community that I can hopefully train with. I've always struggled to set goals when it came to exercise. I think trying to reach certain calisthenics tricks could help, but I usually end up getting bored and unmotivated. I'll try to figure out how to fix that.
 
 ### Mental
+
 I've been learning and practicing the concept of thoughts and actions being separate. Thoughts are thoughts, and actions are actions, thoughts can influence and motivate your actions, but they are inertly separate.
 
 I've also been learning that we aren't in control of our feelings, and what you feel vs how you feel about what you feel are also separate.
@@ -100,11 +113,12 @@ Mental health related things are quite personal so I won't get into detail here,
 
 Also being on my own in california has helped me realize that I don't need nearly as much as I thought I did. Coming home to all this extra stuff was kinda overwhelming, I think practicing a bit more minimalism and trying to know how much is enough, not just having things for the sake of having them. I've listed a lot of my random things on facebook marketplace and am likely going to donate some of my clothes too.
 
-
 ### Sleep
+
 I bought a e-Reader finally (The previously mentioned Boox), so I'm now able to read digital books at night without blasting myself with blue light. I have now attained the platonic ideal of being able to read until I'm tired, and if my current tossing and turning habits are any indication, I'll be able to get through a lot of books. 🤓
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Wake up and go to sleep at the same time every day.
 - [ ] Be mindful of how you think and what you do.
 - [ ] Read 5 Books!
@@ -112,6 +126,7 @@ I bought a e-Reader finally (The previously mentioned Boox), so I'm now able to 
 - [ ] Get rid of extra stuff you don't need, keep the stuff that's important.
 
 ## GDYU
+
 I am NOT the GDYU president this year, as I thought I was going to be in Japan.
 
 I am still an executive. It does allow me to focus less on administrative stuff and focus more on the qualities that I think I could specifically be good at (like helping the club make some hecking games).
@@ -121,12 +136,13 @@ We have plans, plans I cannot share with you (we can't spoil the surprise).
 The plans I can share involve fixing Robo Scrimblo, he's been off for a while now and it's my fault, I'll get to him soon.
 "Fix Robo Scrimblo" is right under "Write JJPA" in my list of things to do, so it's happening ASAP.
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Help Run GDYU!
 - [ ] Fix Robo Scrimblo
 
-
 ## Game dev
+
 It's [Bevy](https://bevyengine.org/) time.
 
 I've been interested in this engine for a while an I'm taking this season to give it an honest try.
@@ -138,14 +154,15 @@ The pre-requisite of Bevy is to learn Rust, a language notorious for it's steep 
 
 I will likely expand on my opinions on Bevy and how it compares to Godot in a separate post, I'll trying doing a collection of small projects inspired by the [miziziziz split](https://youtu.be/5-iST0a69cI?si=UJnXWcaYiHyYWKY0), and maybe try working at some Jams that are at convenient times.
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Learn Rust.
 - [ ] Learn Bevy.
 - [ ] Participate in Ludum Dare 56?
 - [ ] Make a 2 hour, 2 day, 1 week, 2 week (and 2 month?) game in Bevy.
 
-
 ## Art?
+
 I know. I do Art.
 
 Not a lot (or any, really) recently, but it's still kicking, I swear.
@@ -156,10 +173,13 @@ I've been meaning to give my copy of [Pixel Logic](https://pixellogicbook.com/) 
 
 Drawabox might also resume if art is back on the table, but no promises.
 
-### Specific Goals:
+### Specific Goals
+
 - [ ] Make some (any) pixel art.
 
-## And that's it!
+## And that's it
+
 With this post complete I now need to face the ramifications of my actions (doing what I said I would).
 
 Time to lock in 😮‍💨.
+

@@ -2,6 +2,7 @@
 title: '93 Days into learning Japanese'
 date: '2024-04-07'
 wip: 'false'
+tags: ['japanese', 'relfection']
 ---
 
 ### Edits

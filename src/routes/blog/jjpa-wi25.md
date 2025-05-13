@@ -1,15 +1,16 @@
 ---
 title: 'Jayden Journal Public Access: Winter 2025'
 date: '2024-12-26'
+tags: ['jjpa', 'reflection']
 ---
 
 [Holly Jolly Maxing](https://youtube.com/playlist?list=PLA1lfYRDWuPgHZs9IH47kRzVLz-FRISh6&si=NwUTHh96NYtggRDK)
 
-# Blog isn't dead!
+# Blog isn't dead
 
 It's been about 4 months since the last blog post. After careful end of year reflection and going over my daily journal entries, I can say fairly confidently that these last 4 months were the worst 4 months of my life!
 
-Now that sounds very extreme, but it wasn't something suddenly awful befalling me, just a lot of things not going the way I wanted them to despite me trying my hardest to get them to work out. I felt like my efforts weren't relevant in the outcome of things which lead to me not trying, which lead to a bad outcome, wasn't a good cycle. 
+Now that sounds very extreme, but it wasn't something suddenly awful befalling me, just a lot of things not going the way I wanted them to despite me trying my hardest to get them to work out. I felt like my efforts weren't relevant in the outcome of things which lead to me not trying, which lead to a bad outcome, wasn't a good cycle.
 
 Part of me is quite privileged and lucky that these last 4 months have been the worst my life has ever gotten, as it wasn't _that_ bad. But regardless of the severity of badness which I won't get into (consider it a exercise for the reader's imagination), I survived, and am better off for it.
 

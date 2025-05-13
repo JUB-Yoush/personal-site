@@ -1,6 +1,7 @@
 ---
 title: 'Jayden Journal Public Access: Summer 2025'
 date: '2025-05-09'
+tags: ['jjpa', 'reflection']
 ---
 
 ---
