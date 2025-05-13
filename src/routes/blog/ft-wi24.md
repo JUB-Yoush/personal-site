@@ -1,8 +1,6 @@
 ---
-title: 'My Favorite Things w24'
+title: 'My Favorite Things Winter 2024'
 date: '2024-02-25'
-wip: 'false'
-
 tags: ['favorite-things']
 ---
 

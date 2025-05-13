@@ -1,8 +1,7 @@
 ---
 title: 'Favorite Things Fall 2024'
 date: '2025-01-22'
-
-tags: ['favorite things']
+tags: ['favorite-things']
 ---
 
 ---

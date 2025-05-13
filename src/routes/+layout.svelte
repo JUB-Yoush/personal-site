@@ -64,6 +64,7 @@
 		cursor: pointer;
 	}
 	:global(a) {
+		background-color: transparent;
 		text-decoration: underline;
 	}
 	main {

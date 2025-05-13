@@ -4,18 +4,23 @@
 	let tagFilter = $page.url.searchParams.get('tag') ?? 'all';
 	export let allTags = new Set();
 
+	//get all tags
+	for (const post of data.posts) {
+		post.meta.tags.forEach((tag) => {
+			allTags.add(tag);
+		});
+	}
+	allTags = Array.from(allTags);
+
+	//filter by tag
 	if (tagFilter != 'all') {
 		let postsquery = [];
 		for (const post of data.posts) {
-			post.meta.tags.forEach((tag) => {
-				allTags.add(tag);
-			});
 			if (post.meta.tags.includes(tagFilter)) {
 				postsquery.push(post);
 			}
 		}
 		data.posts = postsquery;
-		allTags = Array.from(allTags);
 	}
 </script>
 
@@ -40,9 +45,7 @@
 			<a class="blog-title" href={post.path}>
 				{post.meta.title}
 			</a>
-			<br />
-			Posted: {post.meta.date}
-			<br />
+			<p>Posted: {post.meta.date}</p>
 			{#each post.meta.tags as tag}
 				<a class="inline-tag" href="/blog?tag={tag}">#{tag}</a>
 			{/each}
@@ -54,6 +57,9 @@
 	.blog-title {
 		font-weight: bold;
 		font-size: 1.5rem;
+	}
+	p {
+		padding-top: 8px;
 	}
 
 	li {
