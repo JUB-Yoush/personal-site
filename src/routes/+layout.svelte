@@ -45,7 +45,7 @@
 				<a class="" href="/contact">contact</a>
 				<a class="" href="https://github.com/JUB-Yoush" target="_blank">github</a>
 				<a class="" href="https://yoush.itch.io/" target="_blank">itch.io</a>
-				<a class="" href="https://buttondown.com/jaydenpb/rss">rss</a>
+				<a class="" href="/rss">rss</a>
 			</div>
 			<footer />
 		</footer></body

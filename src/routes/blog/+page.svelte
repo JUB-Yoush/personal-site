@@ -27,9 +27,7 @@
 <h1>~/blog</h1>
 
 <p>
-	If you'd prefer being notified for new posts automatically, my mailing list has <a
-		href="https://buttondown.com/jaydenpb/rss">rss</a
-	> support.
+	Feel free to add me to your <a href="/rss">rss</a> reader.
 </p>
 <h2>Tags:</h2>
 <div class="tags" data-sveltekit-reload>
