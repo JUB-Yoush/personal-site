@@ -178,11 +178,19 @@ strong{
     margin-bottom:1rem;
 }
 
-.icon-link:before {
-  position: relative;
-  content: '#';
-  font-size: 2rem;
-  padding-bottom: .8rem;
-  font-weight: bold;
+.icon-link{
+  position:relative;
+}
 
+.icon-link:before {
+  position: absolute;
+  content: '#';
+  left:-1ch;
+  top: -0.5ch;
+  line-height: 1;
+  opacity: 1;
+  font-size: 1.5rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
 }

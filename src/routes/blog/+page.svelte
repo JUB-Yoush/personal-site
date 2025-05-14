@@ -31,6 +31,7 @@
 </p>
 <h2>Tags:</h2>
 <div class="tags" data-sveltekit-reload>
+	<a href="/blog">#all</a>
 	{#each allTags as tag}
 		<a href="/blog?tag={tag}">#{tag}</a>
 	{/each}
