@@ -1,7 +1,20 @@
 <script>
 	export let data;
+	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
-	let tagFilter = $page.url.searchParams.get('tag') ?? 'all';
+	onMount(() => {
+		let tagFilter = $page.url.searchParams.get('tag') ?? 'all';
+		//filter by tag
+		if (tagFilter != 'all') {
+			let postsquery = [];
+			for (const post of data.posts) {
+				if (post.meta.tags.includes(tagFilter)) {
+					postsquery.push(post);
+				}
+			}
+			data.posts = postsquery;
+		}
+	});
 	export let allTags = new Set();
 
 	//get all tags
@@ -11,17 +24,6 @@
 		});
 	}
 	allTags = Array.from(allTags);
-
-	//filter by tag
-	if (tagFilter != 'all') {
-		let postsquery = [];
-		for (const post of data.posts) {
-			if (post.meta.tags.includes(tagFilter)) {
-				postsquery.push(post);
-			}
-		}
-		data.posts = postsquery;
-	}
 </script>
 
 <h1>~/blog</h1>
