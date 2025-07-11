@@ -91,7 +91,7 @@ Breaking things up from large connected components into smaller modular componen
 
 Dependency Injection Sounds much more complicated than it actually is. Instead of data being provided to a class through it's inherited parent, you simply include the data. I originally learned about this pattern when making games using [Bevy](https://bevy.org/), as it uses a inheritance-less entity component system for your games data.
 
-Lets say you're making a Game and have a entity base class with a sprite and position. If you were using something inheritance based, like Godot, that data would look something like:
+Lets say you're making a game and have a entity base class with a sprite and position. If you were using something inheritance based, like Godot, that data would look something like:
 
 ```C#
 class Position{
@@ -152,7 +152,7 @@ Your classes are now composed of atomic classes that can be composed. DI does to
 Functional Programming is a type of programming focused on only using "pure" functions. A "pure" function is one without "side-effects", meaning: 1. **the same input will always yield the same output, and 2.**nothing outside of the passed in data is modified.\*\*
 Think only using static functions with no static variables.
 
-In FP you also (generally) only operate on immutable data. meaning all values need to be updated and returned instead of modifying by a passed in reference. Functional languages like [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>, [Haskell](https://www.haskell.org/), [Elixir](), or [Ocaml](https://elixir-lang.org/) are expressly written in this style and have extremely unfamilar syntax to those who've only really used C-like languages. however lots of non functional languages have functional language features or can be written in a functional style. Functional programming relies on a separation between your data and functions that operate on that data. That might sound like a very different architectural approach, until you understand it's mostly the difference between this:
+In FP you also (generally) only operate on immutable data. meaning all values need to be updated and returned instead of modifying by a passed in reference. Functional languages like [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>, [Haskell](https://www.haskell.org/), [Elixir](), or [Ocaml](https://elixir-lang.org/) are expressly written in this style and have extremely unfamilar syntax to those who've only really used C-like languages. however lots of non-functional languages have functional language features or can be written in a functional style. Functional programming relies on a separation between your data and functions that operate on that data. That might sound like a very different architectural approach, until you understand it's mostly the difference between this:
 
 ```C#
 // OOP based
@@ -241,7 +241,7 @@ static class ShapeHandler
 
 ```
 
-It might seem odd that we're still implementing the shape interface despite it not doing anything. The Shape interface now simply acts as a "union" of different types that we want to potentially handle, and C# will only let us implicitly convert types that implement the interface. Functional Languages have lots more features to support this kind of programming. but depending on your language a lot of functional ideas can be applied to non functional languages.
+It might seem odd that we're still implementing the shape interface despite it not doing anything. The Shape interface now simply acts as a "union" of different types that we want to potentially handle, and C# will only let us implicitly convert types that implement the interface. Functional languages have lots more features to support this kind of programming. but depending on your language a lot of functional ideas can be applied to non functional languages.
 
 Pattern matching for every new case can become annoying when we have a lot of new functions to implement, what if we wanted to return the perimeter of the shape? or turn it 3d? add hexagons or rhombuses? we'd have to loop over every type in every function that implements a shape. But we have solutions for that too:
 
@@ -316,7 +316,7 @@ public class Shape(ShapeType id, Func<Shape, float> areaFn)
 - Use Abstraction when child classes implement a lot more behavior than the abstract parent (and you want references to specific members).
 - If the abstract parent implements most of the behavior, use a function pointer for any polymorphic behavior.
 
-## OOP: the bottom line
+## OOP: The bottom line
 
 OOP encourages modeling environments based on our intuitive understanding/mental model of how it works, and then use the capabilities you designed in that system to solve problems and implement the functionality/requirements you wanted to achieve. Instead of managing the overhead of systems in our brain, we front-load that work and design a high level abstract API that we can use to solve problems in the way we intuit them to behave. `class Student extends Person` because students are people. This isn't inherently bad, abstraction is all over software engineering and computing after all. If we never got any more high level we'd still all be handing reams of punch-cards to secretaries.
 
@@ -325,13 +325,14 @@ But abstraction isn't free. Ignoring performance concerns (blog post soon) the m
 OOP encourages you model a problem based on how you intuit components to exist and connect to each other, then use the model to implement solutions to the problem.
 You come up with the model first then use it to do stuff second.
 
-An Inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of abstraction features available in simple procedural languages. After you start implementing the specific solutions, you then can start to observe common/shared behavior between features that can be abstracted.
+An inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of abstraction features available in simple procedural languages. After you start implementing the specific solutions, you then can start to observe common/shared behavior between features that can be abstracted.
 
 Casey Muratori coined the phrase ["semantic compression"](https://caseymuratori.com/blog_0015) based on this style. You sort of act as a human compression algorithm, finding pieces of functionality that can be compressed into commonly shared pieces, only abstracting something after you've used it twice. It isn't necessarily about not using objects or interfaces or inheritance, it's about using them when they make sense to based on what you've observed about the codebase.
 
 Big detailed UML diagrams plot too specific of a course towards what we think is the API that will best accomplish the set of requirements we're after. If we've never made that thing before then it's very hard to know what form the final code will take. Unlike other types of engineering, software is extremely cheap to refactor after we've begun building. Large detailed blueprints of buildings are made not because that's the best way to go about designing a building, but because civil engineers/architects need to lock in all decisions before construction (their compiler) can start building what they described out. Being able to write code quickly, that solves problems directly, and then figuring out the best models to represent your code as you make it is a benefit many software engineers take for granted but don't seem to take advantage of. Casey in his blog post writes:
 
 > "make your code usable before you try to make it reusable".
+
 > "The fallacy of “object-oriented programming” is exactly that: that code is at all “object-oriented”. It isn’t. Code is procedurally oriented, and the “objects” are simply constructs that arise that allow procedures to be reused. So if you just let that happen instead of trying to force everything to work backwards, programming becomes immensely more pleasant."
 
 If that all sounds too vauge and nonspecific then:
