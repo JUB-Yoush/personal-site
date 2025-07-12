@@ -1,5 +1,5 @@
 ---
-title: 'Object Orientation: Polymorphism and Code Organization'
+title: 'Object Orientation: Polymorphic Code Organization'
 date: '2025-07-11'
 wip: 'false'
 tags: ['programming']
