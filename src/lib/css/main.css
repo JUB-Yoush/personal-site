@@ -162,6 +162,18 @@ blockquote{
     margin-left: 3rem;
   
 }
+
+code{
+	color: var(--color);
+	font-family: "Courier New", Courier, monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	font-size: .9em;
+}
+
 /*~*/
 .home_gif{
  height: 20vw;

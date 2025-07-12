@@ -1,19 +1,21 @@
 ---
-title: 'Object Orientation Part 1: Polymorphism and Code Organization'
+title: 'Object Orientation: Polymorphism and Code Organization'
 date: '2025-07-11'
 wip: 'false'
 tags: ['programming']
 ---
 
-A fundamental problem software engineers run into is organizing polymorphic data. That is, datatypes that share some similarities but also do some things differently. We're given quite a lot of flexibility in how to approach problems based on tools in a given language, so It can be difficult to come up with the "best" way to go about modeling or representing our code, especially if it's a new problem you've never solved before.
+A fundamental problem software engineers run into is organizing polymorphic data. That is, datatypes that share some similar data but also do other things differently. We're given quite a lot of flexibility in how to approach problems based on tools in a given language, so It can be difficult to come up with the "best" way to go about modeling or representing our code, especially if it's a new problem you've never solved before.
 
 This post summarizes the different approaches I've become familiar with, and the considerations and trade offs one would make when considering one.
 
 I'm going to start off simple and slowly discuss different aspects using concepts that might be new to you, if anything discussed here is as interesting to you as it is to me, I implore you to look into it yourself.
 
-Lets say you're making a geometry library. You have Rectangle and Triangle classes that can both calculate the area of themselves.
+Let's say you're making a geometry library. You have Rectangle and Triangle classes that can both calculate the area of themselves.
 
-If you've ever written any Object oriented code, you'd know how to solve this. make an abstract parent class "Shape" with abstract class for area(), and have each Shape extend from it.
+If you've ever written any object oriented code, you'd know how to solve this: Make an abstract parent class "Shape" with abstract class for `area()`, and have each Shape extend from it.
+
+(All code examples will be in C#)
 
 ```C#
 public abstract class Shape(float width, float length)  {
@@ -41,7 +43,10 @@ class Triangle(float width, float length) : Shape
 ```
 
 Simple!
-I don't know if you've heard... but object oriented programming is LAME actually. Java blew up and started selling out shows at the Rogers Center, so now it's cool to not like them. Clearly all these 45 year old suit n tie netbeans programmers have no idea what good music is. In between taking turns participating in our favorite hobby (shoving the S.O.L.I.D principles into lockers) you might be interested in actually learning why people criticize OOP? The two primary concerns are:
+
+But I don't know if you've heard... object oriented programming is LAME actually. Java blew up and started selling out shows at the Rogers Center, so now it's cool to not like them. Clearly all these 45 year old suit and tie Netbeans programmers have no idea what good music is. In between taking turns participating in our favorite hobby (shoving SOLID principles into lockers) you might be interested in actually learning where criticisms of OOP come from?
+
+The Two primary concerns are:
 
 1. OOP encourages abstraction that can lead to coupling and messy codebases.
 2. Pointer indirection, Cache locality, and vtables make objects slower than plain structs.
@@ -52,7 +57,7 @@ I am only considering the first one in this post. Originally I covered both but 
 
 ## Abstraction inherently causes coupling
 
-Inheritance tightly couples child classes to parent classes. The Shape example I demonstrated seems quite benign (because it is), but more complex hierarchies can come with issues. Changes to the parent class propagate down the abstraction tree, and if a child doesn't perfectly fit what the parent class had designed, then you need to refactor the entire sections of the tree, and all the nodes that extend from that branch. Abstraction is about making assumptions about what your code will need. If the abstraction was correct then you saved yourself repeating code. If they aren't then you'll need to modify your assumptions to fit. The issue isn't inheritance inherently (get it), but the tight coupling of code. Some modern "Post-OOP" languages like Rust and Go don't have inheritance at all, however they do have abstraction through interfaces.
+Inheritance tightly couples child classes to parent classes. The Shape example I demonstrated seems quite benign (because it is), but more complex hierarchies can come with issues. Changes to the parent class propagate down the abstraction tree, and if a child doesn't perfectly fit what the parent class had designed, then you need to refactor the entire section of the tree, and all the nodes that extended from that branch. Abstraction is about making assumptions about what your code will need. If the abstraction was correct then you saved yourself repeating code. If they aren't then you'll need to modify your assumptions to fit. The issue isn't inheritance inherently (get it), but the tight coupling of code. Some modern "Post-OOP" languages like Rust and Go don't have inheritance at all, however they do have abstraction through interfaces.
 
 ## Interfaces
 
@@ -131,7 +136,7 @@ int entityId;
 }
 
 class Sprite{
-byte[] imgData; // some kind of byte array holding the image data
+byte[] imgData;
 bool flipX = false;
 bool flipY = false;
 bool centered = false;
@@ -149,10 +154,16 @@ Your classes are now composed of atomic classes that can be composed. DI does to
 
 ## A word on functional(ish) programming
 
-Functional Programming is a type of programming focused on only using "pure" functions. A "pure" function is one without "side-effects", meaning: 1. **the same input will always yield the same output, and 2.**nothing outside of the passed in data is modified.\*\*
+Functional Programming is a type of programming focused on only using "pure" functions. A "pure" function is one without "side-effects", meaning:
+
+1. **The same input will always yield the same output.**
+2. **Nothing outside of the passed in data is modified**.
+
 Think only using static functions with no static variables.
 
-In FP you also (generally) only operate on immutable data. meaning all values need to be updated and returned instead of modifying by a passed in reference. Functional languages like [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>), [Haskell](https://www.haskell.org/), [Elixir](https://elixir-lang.org/), or [Ocaml](https://ocaml.org/) are expressly written in this style and have extremely unfamilar syntax to those who've only really used C-like languages. however lots of non-functional languages have functional language features or can be written in a functional style. Functional programming relies on a separation between your data and functions that operate on that data. That might sound like a very different architectural approach, until you understand it's mostly the difference between this:
+In FP you also (generally) only operate on immutable data. meaning all values need to be updated and returned instead of modifying by a passed in reference. Functional languages like [ML](<https://en.wikipedia.org/wiki/ML_(programming_language)>), [Haskell](https://www.haskell.org/), [Elixir](https://elixir-lang.org/), or [Ocaml](https://ocaml.org/) are expressly written in this style and have extremely unfamilar syntax to those who've only really used C-like languages. However lots of non-functional languages have functional language features or can be written in a functional style.
+
+Functional programming relies on a separation between your data and functions that operate on that data. That might sound like a very different architectural approach, until you understand it's mostly the difference between this:
 
 ```C#
 // OOP based
@@ -185,9 +196,11 @@ class Rectangle(float width, float length)
 
 }
 
-static class RectangleHandler(){ // "pure" function
+// "pure" function
+static class RectangleHandler(){
  public static Rectangle ChangeDimensions(float w, float l){
-  return new Rectangle(w,l) //return new rectangle instead of modifying value (immutability)
+  //return new rectangle instead of modifying value (immutability)
+  return new Rectangle(w,l)
  }
 }
 
@@ -197,7 +210,7 @@ public static void Main(){
 }
 ```
 
-Then at that point you might think it's a completely pedantic and worthless distinction, (languages like Go convert all methods into functional calls, as it has no classes) but it's not!
+Then at that point you might think it's a completely pedantic and worthless distinction, (languages like Go convert all your methods into functional calls at compile time) but it's not!
 
 ### How to think about functional programming
 
@@ -307,29 +320,31 @@ public class Shape(ShapeType id, Func<Shape, float> areaFn)
 - We also need to pass in the variable into itself, as The object calls a static method and passes itself into it. You could potentially get away with using a method through initializing the variable in one line and referencing the function pointer in the second using itself. But I don't really mind.
 - This solution forces us to implement a single concrete type, which means we'd need to have all the parameters of all possible types within a single class. This could get quite complex and hard to organize based on the number of different types you have and how many different parameters they share with each other, but this is how you'd implement interfaces/abstract classes in a "procedural" language with no abstraction features like C, Zig or Odin.
 
-### My personal rules for OOP hierarchies I generally follow
+### My rules for OOP hierarchies I try to follow
 
-- Prefer interfaces over abstraction.
-- Prefer dependency injection over abstraction.
+- Prefer interfaces over inheritance.
+- Prefer dependency injection over inheritance.
 - Keep all inheritable classes abstract.
-- Never use grandparent classes, keep all abstraction only one level.
-- Use abstraction when child classes implement a lot more behavior than the abstract parent (and you want references to specific members).
-- If the abstract parent implements most of the behavior, use a function pointer for any polymorphic behavior.
+- Never use grandparent classes, keep all inheritance only one level.
+- When to use inheritance vs a function pointer:
+  - Use inheritance when child classes implement a lot more behavior than the abstract parent (and you want references to specific members).
+  - If the abstract parent implements most of the behavior, use a function pointer for any polymorphic behavior.
 
 ## OOP: The bottom line
 
-OOP encourages modeling environments based on our intuitive understanding/mental model of how it works, and then use the capabilities you designed in that system to solve problems and implement the functionality/requirements you wanted to achieve. Instead of managing the overhead of systems in our brain, we front-load that work and design a high level abstract API that we can use to solve problems in the way we intuit them to behave. `class Student extends Person` because students are people. This isn't inherently bad, abstraction is all over software engineering and computing after all. If we never got any more high level we'd still all be handing reams of punch-cards to secretaries.
+OOP encourages modeling environments based on our intuitive understanding of how it'd works, and then use the capabilities you designed in that system to solve problems and implement the requirements of your program. Instead of managing the overhead of a systems in our brain, we front-load that work and design a high level abstract model that we can use to solve the problems through. `class Student extends Person` because we understand students to also be people. This isn't inherently bad, abstraction is all over software engineering and computing after all. If we never got any more high level we'd still all be handing reams of punch-cards to secretaries.
 
-But abstraction isn't free. Ignoring performance concerns (blog post soon) the more abstraction you add to your systems the more assumptions you make about how things fit together. More abstraction leads to more assumptions which leads to more coupling. These assumptions can be wrong and will cause you to have to untangle your spaghetti code. Note that this isn't inherit to OOP, you can make responsibility organized OOP based codebases, just as you can make difficult to maintain code of using plain structs or in a functional language.
+But abstraction isn't free. Ignoring performance concerns, the more abstraction you add to your systems the more assumptions you make about how things fit together. More abstraction leads to more assumptions which leads to more coupling. These assumptions can be wrong and will cause you to have to untangle your spaghetti code. Note that this isn't inherit to OOP, you can make responsibility organized OOP based codebases, just as you can make difficult to maintain code in a functional language.
 
-OOP encourages you model a problem based on how you intuit components to exist and connect to each other, then use the model to implement solutions to the problem.
+OOP encourages you model a problem, then use the model to solve the problem.
+
 You come up with the model first then use it to do stuff second.
 
-An inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of abstraction features available in simple procedural languages. After you start implementing the specific solutions, you then can start to observe common/shared behavior between features that can be abstracted.
+An inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of abstraction features available in simple procedural languages. After you start implementing solutions, you then can start to observe common/shared behavior between features that can be abstracted. You solve the problems and then create the model.
 
-Casey Muratori coined the phrase ["semantic compression"](https://caseymuratori.com/blog_0015) based on this style. You sort of act as a human compression algorithm, finding pieces of functionality that can be compressed into commonly shared pieces, only abstracting something after you've used it twice. It isn't necessarily about not using objects or interfaces or inheritance, it's about using them when they make sense to based on what you've observed about the codebase.
+Software Engineer and Game Programmer Casey Muratori coined the phrase ["semantic compression"](https://caseymuratori.com/blog_0015) based on this style. You act as a human compression algorithm, finding pieces of functionality that can be compressed into commonly shared pieces, only abstracting something after you've used it twice. It isn't necessarily about not using objects or interfaces or inheritance, it's about using them when they make sense to based on what you've observed about the codebase.
 
-Big detailed UML diagrams plot too specific of a course towards what we think is the API that will best accomplish the set of requirements we're after. If we've never made that thing before then it's very hard to know what form the final code will take. Unlike other types of engineering, software is extremely cheap to refactor after we've begun building. Large detailed blueprints of buildings are made not because that's the best way to go about designing a building, but because civil engineers/architects need to lock in all decisions before construction (their compiler) can start building what they described out. Being able to write code quickly, that solves problems directly, and then figuring out the best models to represent your code as you make it is a benefit many software engineers take for granted but don't seem to take advantage of.
+Big detailed UML diagrams plot too specific of a course towards what we think is the API that will best accomplish the set of requirements we're after. If we've never made that thing before then it's very hard to know what form the final code will take. Unlike other types of engineering, software is extremely cheap to refactor after we've begun building. Large detailed blueprints of buildings are made not because that's the best way to go about designing a building, but because civil engineers and architects need to lock in all decisions before construction (their compiler) can start building what they described. Being able to write code quickly, that solves problems directly, and then figuring out the best models to represent your code as you make it is a benefit many software engineers take for granted but don't seem to take advantage of.
 
 Casey in his blog post writes:
 
