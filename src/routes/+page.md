@@ -32,7 +32,5 @@ Thanks for stopping by.
 <br>
 <br>
 </p>
-Summer 2025 Internships! If you're the hiring kinda type, reach me through the contact info in the footer.
+New Graduate (or internships lol) roles for Winter or Summer 2026.
 </div>
-
-Also, if you go to York and are interested in game development, [gdyu.club](https://www.gdyu.club/).
