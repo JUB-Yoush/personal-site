@@ -32,5 +32,5 @@ Thanks for stopping by.
 <br>
 <br>
 </p>
-New Graduate (or internships lol) roles for Winter or Summer 2026.
+New Graduate (or internship I guess) roles for Winter or Summer 2026.
 </div>
