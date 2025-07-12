@@ -246,7 +246,7 @@ static class ShapeHandler
         return s switch
         {
             Rectangle r => r.width * r.length,
-   Triangle t => 0.5 * t.base * t.height,
+            Triangle t => 0.5 * t.base * t.height,
             Circle c => (float)Math.Pow(Math.PI * c.radius, 2),
         };
     }
