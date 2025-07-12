@@ -172,7 +172,7 @@ class Rectangle(float width, float length)
     float width = width;
     float length = length;
 
- public setDimensions(float w, float l){ //method
+ public setDimensions(float w, float l){
   //updates existing rectangle values (mutable)
   width = w;
   length = l;
