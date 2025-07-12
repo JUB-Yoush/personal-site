@@ -313,7 +313,7 @@ public class Shape(ShapeType id, Func<Shape, float> areaFn)
 - Prefer dependency injection over abstraction.
 - Keep all inheritable classes abstract.
 - Never use grandparent classes, keep all abstraction only one level.
-- Use Abstraction when child classes implement a lot more behavior than the abstract parent (and you want references to specific members).
+- Use abstraction when child classes implement a lot more behavior than the abstract parent (and you want references to specific members).
 - If the abstract parent implements most of the behavior, use a function pointer for any polymorphic behavior.
 
 ## OOP: The bottom line
