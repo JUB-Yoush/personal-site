@@ -260,12 +260,12 @@ Pattern matching for every new case can become annoying when we have a lot of ne
 
 ### Function pointers
 
-- How does inheritance work? Not conceptually, but to the compiler? If I have a child class that overrides a parent function, or a class that overrides and implements an interfaces function, how does the compiler know what function to use when I call the abstract `shape.area()` ?
-- Classes have what is called a "virtual function table" or "vtable". This is a lookup table that the compiler can reference to figure out what version of a function an object is referring to. Classes automatically contain data that reference a function to call. However in a functional style with no abstraction we'd need to implement this behavior ourselves through the `calculateArea()` function, acting as a manually implemented vtable.
+How does inheritance work? Not conceptually, but to the compiler? If I have a child class that overrides a parent function, or a class that overrides and implements an interfaces function, how does the compiler know what function to use when I call the abstract `shape.area()` ?
+Classes have what is called a "virtual function table" or "vtable". This is a lookup table that the compiler can reference to figure out what version of a function an object is referring to. Classes automatically contain data that reference a function to call. However in a functional style with no abstraction we'd need to implement this behavior ourselves through the `calculateArea()` function, acting as a manually implemented vtable.
 
-- The vtable effectively stores a function as a variable that is a part of an object. What's stopping us from... doing that ourselves? We can dependency inject that data into the class ourselves and sidestep abstraction altogether.
-- Lets try storing a function as a parameter in a concrete class, to emulate abstraction we can use a enum of different "types" the class could be so we know which function to call.
-- Instead of pattern matching for every possible condition, we can simply pass in all the relevant functions on the objects creation, and call whatever function it has within it.
+The vtable effectively stores a function as a variable that is a part of an object. What's stopping us from doing that ourselves? We can dependency inject that data into the class ourselves and sidestep abstraction altogether. Lets try storing a function as a parameter in a concrete class, to emulate abstraction we can use a enum of different "types" the class could be so we know which function to call.
+
+Instead of pattern matching for every possible condition, we can simply pass in all the relevant functions on the objects creation, and call whatever function it has within it.
 
 ```C#
 public enum ShapeType
@@ -316,9 +316,11 @@ public class Shape(ShapeType id, Func<Shape, float> areaFn)
 }
 ```
 
-- I wrapped object initialization into a static factory function (yeah, that's the factory method! I know some design patterns! gang of 4! agile! sprint!? story points???)
-- We also need to pass in the variable into itself, as The object calls a static method and passes itself into it. You could potentially get away with using a method through initializing the variable in one line and referencing the function pointer in the second using itself. But I don't really mind.
-- This solution forces us to implement a single concrete type, which means we'd need to have all the parameters of all possible types within a single class. This could get quite complex and hard to organize based on the number of different types you have and how many different parameters they share with each other, but this is how you'd implement interfaces/abstract classes in a "procedural" language with no abstraction features like C, Zig or Odin.
+I wrapped object initialization into a static factory function (yeah, that's the factory method, I know some design patterns! Gang of 4 baby! Agile! Sprint!? Story points???)
+
+We also need to pass in the variable into itself, as The object calls a static method and passes itself into it. You could potentially get away with using a method through initializing the variable in one line and referencing the function pointer in the second using itself. But I don't really mind.
+
+This solution forces us to implement a single concrete type, which means we'd need to have all the parameters of all possible types within a single class. This could get quite complex and hard to organize based on the number of different types you have and how many different parameters they share with each other, but this is how you'd implement interfaces/abstract classes in a "procedural" language with no abstraction features like C, Zig or Odin.
 
 ### My rules for OOP hierarchies I try to follow
 
@@ -332,19 +334,23 @@ public class Shape(ShapeType id, Func<Shape, float> areaFn)
 
 ## OOP: The bottom line
 
-OOP encourages modeling environments based on our intuitive understanding of how it'd works, and then use the capabilities you designed in that system to solve problems and implement the requirements of your program. Instead of managing the overhead of a systems in our brain, we front-load that work and design a high level abstract model that we can use to solve the problems through. `class Student extends Person` because we understand students to also be people. This isn't inherently bad, abstraction is all over software engineering and computing after all. If we never got any more high level we'd still all be handing reams of punch-cards to secretaries.
+OOP encourages modeling environments based on our intuitive understanding of how it'd works, and then use the capabilities you designed in that system to solve problems and implement the requirements of your program.
+
+Instead of managing the overhead of a systems in our brain, we front-load that work and design a high level abstract model that we can use to solve the problems through. `class Student extends Person` because we understand students to also be people. This isn't inherently bad, abstraction is all over software engineering and computing after all. If we never got any more high level we'd still all be handing reams of punch-cards to secretaries.
 
 But abstraction isn't free. Ignoring performance concerns, the more abstraction you add to your systems the more assumptions you make about how things fit together. More abstraction leads to more assumptions which leads to more coupling. These assumptions can be wrong and will cause you to have to untangle your spaghetti code. Note that this isn't inherit to OOP, you can make responsibility organized OOP based codebases, just as you can make difficult to maintain code in a functional language.
 
-OOP encourages you model a problem, then use the model to solve the problem.
+OOP encourages you model a problem first, then use the model to solve the problem second.
 
-You come up with the model first then use it to do stuff second.
+An inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of built in abstraction features available in simple procedural languages. After you start implementing solutions, you then can start to observe common/shared behavior between features that can be abstracted. You solve the problems first then create the model second.
 
-An inversion of this would be the old school "procedural" programming style of just writing code that solves the problems directly, due to there simply not being a lot of abstraction features available in simple procedural languages. After you start implementing solutions, you then can start to observe common/shared behavior between features that can be abstracted. You solve the problems and then create the model.
+Software Engineer and Game Programmer Casey Muratori coined the phrase ["semantic compression"](https://caseymuratori.com/blog_0015) based on this style. You act as a human compression algorithm, finding pieces of functionality that can be compressed into commonly shared pieces, only abstracting something after you've used it twice and observe it can be compressed. It isn't necessarily about not using objects or interfaces or inheritance, it's about using them when they make sense to based on what you've observed about the codebase.
 
-Software Engineer and Game Programmer Casey Muratori coined the phrase ["semantic compression"](https://caseymuratori.com/blog_0015) based on this style. You act as a human compression algorithm, finding pieces of functionality that can be compressed into commonly shared pieces, only abstracting something after you've used it twice. It isn't necessarily about not using objects or interfaces or inheritance, it's about using them when they make sense to based on what you've observed about the codebase.
+Big detailed UML diagrams plot too specific of a course towards what we think is the API that will best accomplish the set of requirements we're after. If we've never made that thing before then it's very hard to know what form the final code will take.
 
-Big detailed UML diagrams plot too specific of a course towards what we think is the API that will best accomplish the set of requirements we're after. If we've never made that thing before then it's very hard to know what form the final code will take. Unlike other types of engineering, software is extremely cheap to refactor after we've begun building. Large detailed blueprints of buildings are made not because that's the best way to go about designing a building, but because civil engineers and architects need to lock in all decisions before construction (their compiler) can start building what they described. Being able to write code quickly, that solves problems directly, and then figuring out the best models to represent your code as you make it is a benefit many software engineers take for granted but don't seem to take advantage of.
+Unlike other types of engineering, software is extremely cheap to refactor after we've begun building. Large detailed blueprints of buildings are made not because that's the best way to go about designing a building, but because civil engineers and architects need to lock in all decisions before construction (their compiler) can start building what they described.
+
+Being able to write code quickly, that solves problems directly, and then figuring out the best models to represent your code as you make it is a benefit many software engineers take for granted but don't seem to take advantage of.
 
 Casey in his blog post writes:
 
