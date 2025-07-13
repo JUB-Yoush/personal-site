@@ -5,6 +5,8 @@ wip: 'false'
 tags: ['programming']
 ---
 
+[Expedition 33 is phenomenal, but you've already heard that from someone else.](https://youtu.be/RqVGdCD4Rgg?si=BeiitIeqpUVA0V3B)
+
 A fundamental problem software engineers run into is organizing polymorphic data. That is, datatypes that share some similar data but also do other things differently. We're given quite a lot of flexibility in how to approach problems based on tools in a given language, so It can be difficult to come up with the "best" way to go about modeling or representing our code, especially if it's a new problem you've never solved before.
 
 This post summarizes the different approaches I've become familiar with, and the considerations and trade offs one would make when considering one.
