@@ -27,8 +27,8 @@ Not everything I do is going to work for you. Take what works leave what doesn't
 
 - But time is limited, we're capped to 24 hours a day.
 - Develop better focus first, then try to stretch that focus out for as long as you can.
-- Start at trying to do 1 hour or 1 50-minute pomodoro session of deep work a day (more on what that is later), then add more time as yFu get comfortable with focusing.
-- Focusing on how we focus and what we focus on also influences how we think about what we spend our time doing our day to day lives, which is a very good thing, we're are very distracted these days, so cultivating focus will allow us to live more intentional lives.
+- Start at trying to do 1 hour or 1 50-minute pomodoro session of deep work a day (more on what that is later), then add more time as you get comfortable with focusing.
+- Focusing on how we focus and what we focus on also influences how we think about what we choose to spend our time doing in our day to day lives, which is a very good thing. There are lots of oppertunties to distract ourselves these days, so cultivating focus will allow us to spend more time with things and people we care about. live more intentional and furfilling lives.
 
 ### You can't get good grades
 
