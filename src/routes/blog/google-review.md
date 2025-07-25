@@ -130,7 +130,7 @@ I do like to be open and I enjoy sharing here on this site, so I'm not sure if I
 
 Get massages, talk to someone about your mental health, Rent an E-scooter for Free (although the scooter itself was nice but the process to get and later return it was kinda cumbersome. Why did Fed Ex change their mind about being able to mail a scooter back, after sending one back from the SAME Fed Ex????), Get your... wisdom teeth removed? One of the interns I know did that American Healthcare I guess. Speaking of-
 
-## 18. I have no personal opinion on american healthcare because I didn't have to experience it
+## 18. I have no personal opinion on American healthcare because I didn't have to experience it
 
 And maybe that's for the best actually.
 
@@ -193,4 +193,3 @@ But House of Bagels' Bagels are the best bagels I've ever had (it's also tax fre
 ## That's it
 
 Check out the subsequent post to learn about what I'm up to for the rest of the year.
-
