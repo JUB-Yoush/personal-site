@@ -11,7 +11,7 @@ tags: ['game-dev', 'programming']
 
 And it's hard for them to. Non artists and non musicians can listen to music and look at art and appreciate them, they might not have the vocabulary or taste someone skilled in the trade would, but they can derive some enjoyment or assessment of quality out of it. Not only is programming generally invisible, either being compiled directly into machine code or requiring some kind of disassembler to re-create, it also requires the person to have the domain knowledge of programming to understand it. People are usually only able to judge software quality based on if it runs on their platform of choice and how good it is at that compared to other games that appear to do similar things.
 
-The ideal of game programming is simply acting as an invisible interface between a user's computer's multimedia input and output, any consideration of the way a game was constructed manifesting themselves as hitches that break the illusion of seamless connectivity from the users controller to their monitor.
+The ideal of game programming is simply acting as an invisible interface between a user's computer's multimedia input and output, any consideration of the way a game was constructed manifesting itself as hitches that break the illusion of seamless connectivity from the users controller to their monitor.
 
 It can be disheartening to remember that your work is at it's best when the user forgets it's there at all, but If nobody cares about how your game was made, it can be made however you'd like. Conveniently it's also never been easier to make a video game.
 
@@ -27,9 +27,9 @@ As someone who only ever knew game development within large engines, it gives yo
 
 A very common piece of advice you hear is "Don't make an engine if you're interested in making games". Sound advice, but I still take some issue with it. The words we use to describe the tool we use to make games with is confusing.
 
-When we use the phrase "Game Engine" we think of an engine, as in: the core that manages/runs a game we build around it. This isn't a sound analogy, we have the game engine itself sure, but it's abstract, (most) engines aren't designed for any specific genre or mechanics. We still need to use the capabilities of the engine's API to build the specific engine that powers our game-play.
+When we use the phrase "game engine" we think of an engine, as in: the core that manages/runs a game we build around it. This isn't a sound analogy, we have the game engine itself sure, but it's abstract, (most) engines aren't designed for any specific genre or mechanics. We still need to use the capabilities of the engine's API to build the specific engine that powers our game-play.
 
-This gives us two layers of abstraction before we get to making things people can actually play: The abstract "implementation" layer that we build or engine in, and the specific abstract "engine" layer we write. Afterwards we make the specific game-play content within our engine (levels, items, enemies etc). This is what I consider the "double abstraction" of Game Engines.
+This gives us two layers of abstraction before we get to making things people can actually play: The abstract "implementation" layer that we build or engine in, and the specific abstract "engine" layer we write. Afterwards we make the specific game-play content within our engine (levels, items, enemies etc). This is what I consider the "double abstraction" of game engines.
 
 When people use the phrase "game engine", they tend to conflate the two layers with each other. "Engine-less" game development would then be like building a car without an engine (Soapbox cars don't count, their engine is gravity). Games can't exist without engines, something needs to facilitate the game-play happening.
 
@@ -83,9 +83,9 @@ It's a well engineered abstraction layer, and if you need exactly what it's offe
 
 This does solve the issue of having your systems be built within a "Black Box". Godot is what I'd describe as an "opaque box". It's free and open source but it's precompiled, peeking into and modifying the source code is very separate thing from downloading and using the engine. It is very nice to be able to hit gd on my keyboard (I use neovim btw) and to to the implementation of a function, and it's something I miss in Godot. But when I'm looking to use a large engine for a project Godot is always what I'll reach for.
 
-## Complicated Games are complicated
+## Complicated games are complicated
 
-"Double Abstraction" get us to think about our games very abstractly. Abstraction is complex and simplicity is a scarce resource in programming. Game Engine development is all about creating reusable components while Game development is all about implementing concrete requirements.
+"Double Abstraction" get us to think about our games very abstractly. Abstraction is complex and simplicity is a scarce resource in programming. Game engine development is all about creating reusable components while Game development is all about implementing concrete requirements.
 
 Game development is also a eclectic process, no two games have exactly the same needs. It's important for us as developers to think about the requirements of our specific game and the resources we have to put it together. Game development can be much simpler and arguably more enjoyable if we simply try to only use the things we need.
 
