@@ -22,6 +22,4 @@ For the final 4 months of 2025 I'd like to focus on resilience. I've found the b
 
 But to finish it off, this is looking like my last year of school (hopefully), so I've been applying for new graduate jobs! If you want me to work for you, you're already on my website so you know where to find me, I talk about game development a lot but professionally I generally do full-stack development and Dev-Ops, see my resume. :)
 
-Also, unfortunately this year I won't part of the team at GDYU. Factors involving personal and professional interpersonal conflict lead to this outcome, and things still aren't super amicable with me and some of leadership. There are still lots of good people in GDYU's exec team and community, so I still wish the club well despite what happened.
-
 That's all, cheers!
