@@ -1,5 +1,5 @@
 ---
-title: 'Jayden Journal Public Access: Summer 2025'
+title: 'Jayden Journal Public Access: Fall 2025'
 date: '2025-09-02'
 tags: ['jjpa', 'reflection']
 ---
@@ -10,7 +10,7 @@ tags: ['jjpa', 'reflection']
 
 # What I've been up to (May 2025 - August 2025)
 
-The summer is over with that I must abandon my hermit lifestyle and re-integrate into society. It was fun to simulate what it would be like to be self employed and work on my own schedule. Hopefully I'll be able to do that for real soon.
+The summer is over, with that I must abandon my hermit lifestyle and re-integrate into society. It was fun to simulate what it would be like to be self employed and work on my own schedule. Hopefully I'll be able to do that for real soon.
 
 The work in question was mostly game development. If you've tuned into the [work streams](https://jaydenpb.net/blog/stream-faq) starting around June time you've likely saw me hacking away at that Roguelike. It's fun to completely dedicate yourself to a project and focus on nothing but your work for extended periods of time. I rarely find myself having to write code that is at the upper limit of my understanding of software architecture and design, but engine-less game programming has proven to be consistently challenging in a brain wrinkle forming way. It's also taught me a lot about the assumptions we make when it comes to writing code, been thinking a lot more critically of the common OOP patterns we were taught in class (you can see the article on [polymorphism](https://jaydenpb.net/blog/oop-1) for more about that).
 
