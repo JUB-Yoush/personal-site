@@ -1,37 +1,42 @@
-[data-theme='plain']{
-    --background-color:#e5d6cc;
-    --color:#171717;
+[data-theme='plain'] {
+    --background-color: #e5d6cc;
+    --color: #171717;
     --hover-color: #929190;
 }
 
-[data-theme='mint']{
-    --background-color:#e6f7ff;
-    --color:#3b3350;
+[data-theme='mint'] {
+    --background-color: #e6f7ff;
+    --color: #3b3350;
     --hover-color: #66b7b0;
 }
-[data-theme='s.berry']{
-    --background-color:#ffcde6;
-    --color:#422549;
+
+[data-theme='s.berry'] {
+    --background-color: #ffcde6;
+    --color: #422549;
     --hover-color: #f179a0;
 }
-[data-theme='banana']{
-    --background-color:#fffeb8;
-    --color:#493351;
+
+[data-theme='banana'] {
+    --background-color: #fffeb8;
+    --color: #493351;
     --hover-color: #e9c46a;
 }
-[data-theme='peanut']{
-    --background-color:#fddebc;
-    --color:#411e2c;
+
+[data-theme='peanut'] {
+    --background-color: #fddebc;
+    --color: #411e2c;
     --hover-color: #a97766;
 }
-[data-theme='grape']{
-    --background-color:#e7d4f6;
-    --color:#2c0d2c;
+
+[data-theme='grape'] {
+    --background-color: #e7d4f6;
+    --color: #2c0d2c;
     --hover-color: #7b60dd;
 }
-[data-theme='melon']{
-    --background-color:#dff5de;
-    --color:#0d142c;
+
+[data-theme='melon'] {
+    --background-color: #dff5de;
+    --color: #0d142c;
     --hover-color: #878f8f;
 }
 
@@ -39,10 +44,10 @@
     font-family: 'hackbold_italic';
     src: url('Hack-BoldItalic-webfont.eot');
     src: url('Hack-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Hack-BoldItalic-webfont.woff2') format('woff2'),
-         url('Hack-BoldItalic-webfont.woff') format('woff'),
-         url('Hack-BoldItalic-webfont.ttf') format('truetype'),
-         url('Hack-BoldItalic-webfont.svg#hackbold_italic') format('svg');
+        url('Hack-BoldItalic-webfont.woff2') format('woff2'),
+        url('Hack-BoldItalic-webfont.woff') format('woff'),
+        url('Hack-BoldItalic-webfont.ttf') format('truetype'),
+        url('Hack-BoldItalic-webfont.svg#hackbold_italic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -52,10 +57,10 @@
     font-family: 'hackbold';
     src: url('Hack-Bold-webfont.eot');
     src: url('Hack-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Hack-Bold-webfont.woff2') format('woff2'),
-         url('Hack-Bold-webfont.woff') format('woff'),
-         url('Hack-Bold-webfont.ttf') format('truetype'),
-         url('Hack-Bold-webfont.svg#hackbold') format('svg');
+        url('Hack-Bold-webfont.woff2') format('woff2'),
+        url('Hack-Bold-webfont.woff') format('woff'),
+        url('Hack-Bold-webfont.ttf') format('truetype'),
+        url('Hack-Bold-webfont.svg#hackbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -65,10 +70,10 @@
     font-family: 'hackitalic';
     src: url('Hack-Italic-webfont.eot');
     src: url('Hack-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Hack-Italic-webfont.woff2') format('woff2'),
-         url('Hack-Italic-webfont.woff') format('woff'),
-         url('Hack-Italic-webfont.ttf') format('truetype'),
-         url('Hack-Italic-webfont.svg#hackitalic') format('svg');
+        url('Hack-Italic-webfont.woff2') format('woff2'),
+        url('Hack-Italic-webfont.woff') format('woff'),
+        url('Hack-Italic-webfont.ttf') format('truetype'),
+        url('Hack-Italic-webfont.svg#hackitalic') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -78,35 +83,35 @@
     font-family: 'hackregular';
     src: url('Hack-Regular-webfont.eot');
     src: url('Hack-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Hack-Regular-webfont.woff2') format('woff2'),
-         url('Hack-Regular-webfont.woff') format('woff'),
-         url('Hack-Regular-webfont.ttf') format('truetype'),
-         url('Hack-Regular-webfont.svg#hackregular') format('svg');
+        url('Hack-Regular-webfont.woff2') format('woff2'),
+        url('Hack-Regular-webfont.woff') format('woff'),
+        url('Hack-Regular-webfont.ttf') format('truetype'),
+        url('Hack-Regular-webfont.svg#hackregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 * {
-font-family: hackregular, Courier New, Courier, monospace;
+    font-family: hackregular, Courier New, Courier, monospace;
 }
 
 
 
-h1{
+h1 {
     font-size: 2rem;
     font-weight: bold;
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     padding-bottom: .8rem;
     font-weight: bold;
 }
 
-h3{
+h3 {
     font-size: 1.3rem;
     padding-bottom: .8rem;
     font-weight: bold;
@@ -114,102 +119,113 @@ h3{
     padding-bottom: 1rem;
 }
 
-h4{
+h4 {
     font-size: 1.1rem;
     padding-bottom: .8rem;
     font-weight: bold;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
 span {
     font-family: 'Courier New', Courier, monospace;
     color: unset;
 }
-:global(*){
+
+:global(*) {
     color: var(--color);
 }
 
-:global(a:hover){
-    color:var(--hover-color);
+:global(a:hover) {
+    color: var(--hover-color);
 }
-pre{
+
+pre {
     color: revert;
     background-color: var(--background-color);
 }
 
-p,a,li,em{
+p,
+a,
+li,
+em {
     margin-bottom: 1.1rem;
+    line-height: 1.5;
     font-size: 1rem;
-    
+
 
 }
-li{
+
+li {
     list-style: square;
     margin-left: 3rem;
 }
-em{
+
+em {
     font-style: italic;
 }
 
-strong{
+strong {
     font-weight: bolder;
 }
 
-blockquote{
+blockquote {
     font-style: italic;
-    border-left:2px solid;
-    padding-left:8px;
+    border-left: 2px solid;
+    padding-left: 8px;
     margin-left: 3rem;
-  
+
 }
 
-code{
-	color: var(--color);
-	font-family: "Courier New", Courier, monospace;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	font-size: .9em;
+code {
+    color: var(--color);
+    font-family: "Courier New", Courier, monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    font-size: .9em;
 }
 
 /*~*/
-.home_gif{
- height: 20vw;
- max-height: 250px;
- min-height: 150px;
- width: auto;
+.home_gif {
+    height: 20vw;
+    max-height: 250px;
+    min-height: 150px;
+    width: auto;
 
 }
-.about-img{
- height: 20vw;
- max-height: 250px;
- min-height: 150px;
- width: auto;
+
+.about-img {
+    height: 20vw;
+    max-height: 250px;
+    min-height: 150px;
+    width: auto;
 
 }
-.box{
+
+.box {
     padding: 4px;
     border-style: solid;
-    border-color: var(--color) ;
+    border-color: var(--color);
     border-width: 2px;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
-.icon-link{
-  position:relative;
+.icon-link {
+    position: relative;
 }
 
 .icon-link:before {
-  position: absolute;
-  content: '#';
-  left:-1ch;
-  top: -0.5ch;
-  line-height: 1;
-  opacity: 1;
-  font-size: 1.5rem;
-  padding-bottom: 0.8rem;
-  font-weight: bold;
-  line-height: 1;
+    position: absolute;
+    content: '#';
+    left: -1ch;
+    top: -0.5ch;
+    line-height: 1;
+    opacity: 1;
+    font-size: 1.5rem;
+    padding-bottom: 0.8rem;
+    font-weight: bold;
+    line-height: 1;
 }
