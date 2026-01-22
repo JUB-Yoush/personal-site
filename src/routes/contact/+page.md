@@ -10,8 +10,9 @@ Thank you for understanding.
 ### Email:
 jaydenpb at protonmail dot com (written like that to avoid spam)
 
+### Discord:
+youshle
+
 ### Linkedin:
 [/in/jaydenpb](https://www.linkedin.com/in/jaydenpb/)
 
-### Discord:
-youshle
