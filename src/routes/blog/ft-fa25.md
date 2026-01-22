@@ -3,8 +3,12 @@ title: 'Favorite Things Fall 2025'
 date: '2026-01-21'
 tags: ['favorite-things']
 ---
+[The mix from Rollcage to Ace Combat 3 is so smooth](https://youtu.be/2DOFYQlkFzE?si=_0lRY111Kp-_N9cl)
+
+# Favorite things from the last 4 months (Sept - Dec 2025)
+
 ## Outer Wilds
-[Outer Wilds](https://www.mobiusdigitalgames.com/outer-wilds.html) is an extremely original game. It's fun to play something original, unlike most indie games which just feel like they mashed up two interesting but disparate genres of game. I mean there's nothing new under the sun, but Outer Wilds is novel enough for me to not be able to tell where any of it's influences come from. It's not the first "knowledge based puzzle game" I've played, but it's certainly the best designed. Everything feels so tightly integrated into itself that one struggles to imagine how they started piecing this world together. It's a space exploration game where you solve a mystery. It took me a few tries to really vibe with the game, but now it's one of my favorites and one of the best of all time in my opinion. Take it slow, ask a friend for a hint if you get stuck, but the answer is usually staring right in front of you.
+[Outer Wilds](https://www.mobiusdigitalgames.com/outer-wilds.html) is an extremely original game. It's refreshing to play something original, unlike most indie games which just feel like they mashed up two interesting but disparate genres of game. I mean there's nothing new under the sun, but Outer Wilds is novel enough for me to not be able to tell where any of it's influences come from. It's not the first "knowledge based puzzle game" I've played, but it's certainly the best designed. Everything feels so tightly integrated into itself that one struggles to imagine how they started piecing this world together. It's a space exploration game where you solve a mystery. It took me a few tries to really vibe with the game, but now it's one of my favorites and one of the best of all time in my opinion. Take it slow, ask a friend for a hint if you get stuck, but the answer is usually staring right in front of you.
 
 ## Piranesi
 [Piranesi](https://en.wikipedia.org/wiki/Piranesi_(novel)) is the first fiction novel I've read in an extremely long time. Most fiction related reading for me comes from comics and manga, which really only have dialouge, so the thick prose that is found in a lot of modern fiction Novels can be hard for me to parse at times. Piranesi was an extremely engaging and easy read for me as the book is told through the perspective of Piranesi's field notes. so at times it feels like it has the tone and writing style of a non-fiction review, bordering on actionbuttonesque. The world of Piranesi is incredibly interesting and engaging, and spending time with Piranesi discussing how he lives and interacts with the halls is incredibly engaging. The mystery around the nature of the world is a big driving force in interest, and the actual answer they give as to "here is why this world exist and how it works" feels kinda underbaked? The book is really short after all and things feel like they wrap up fast. 
@@ -30,7 +34,7 @@ Slick Stylish Rhythm game, UI stylization to rival Persona 5.
 ## Mr Robot
 [Inside you are two Linux Users.](https://www.imdb.com/title/tt4158110/) What starts as a story about a vigilante hacker depicting true to life accurate hacking turns into Metal Gear Solid 2 faster than you'd expect. Fantastic television, not sure why nobody talks about it though. I'm sure this or Bohemian Rasphody are wildly dissonant feeling depending on which one you check out first.
 ## Hirayasumi
-Most "slice of life" Manga I read end up being sitcoms or cozyslop, [Hirayasumi](https://myanimelist.net/manga/137303/Hirayasumi) feels like it's in love with living, and slowing down to appreciate all the small mundanities we take for granted. It's also Packed with themes that are critical hitting a few of my insecurities about figuring out what you want to do with your life and worrying if you won't be good enough to accomplish your goals, but deep down it knows you'll be okay. I find comfort in that. 
+Most "Slice of Life" Manga I read end up being sitcoms or cozyslop, [Hirayasumi](https://myanimelist.net/manga/137303/Hirayasumi) feels like it's in love with living, and slowing down to appreciate all the small mundanities we take for granted. It's also packed with themes that are critical hitting a few of my insecurities about figuring out what you want to do with your life and worrying if you won't be good enough to accomplish your goals, but deep down it knows you'll be okay. I find comfort in that. 
 ## Redline
 [Redline](https://myanimelist.net/anime/6675/redline) is a Boy movie. Cars go vroom and I was like "this is sick actually". Big animation on these cars here. Plot might as well not exist, contains the most unnecessary nudity in a movie ever (they really wanted to draw anime boobs).
 ## Deadlock
@@ -46,8 +50,11 @@ I hope the game doesn't become terrible after it leaves closed testing and becom
 Gyro did kind of trivialize headshots but I still found the game to be plenty difficult, must be that adaptive difficulty I've heard so much about. The game is campy and odd, It feels a lot like devil may cry because it was devil may cry. Ashley isn't that frustrating to manage, I mean it's not fun, I didn't enjoy doing it, but it's not has horrible as I was prepared for after around 20 years of her being used as an example of terrible escort missions. The Tank controls don't really make much sense now that the game has the third person camera but they feel fine once you get used to them.
 
 I should finally play Signalis.
+
 ## Boris live in Toronto
-Boris Heavymetal is heavy and metal, I wore my parappa the rapper hat to the venue and was greeted by many a smoking goth person. They all liked the hat though. My first metal concert, First time someone's brought out a double neck guitar. Their encore was the entirety of Feebacker which is funny. The Feedbacker in Ultrakill is actually what brought me to the band in the first place.
+Boris Heavymetal is heavy and metal. I'm sure Boris as a band name sounds really cool to Japanese people and not like a regular dude's name. Similar to Tina being re-named to Terria in the international versions of FF6. 
+
+I wore my parappa the rapper hat to the venue and was greeted by many a smoking goth person. They all liked the hat though. My first metal concert, First time someone's brought out a double neck guitar. Their encore was the entirety of Feebacker which is funny. The Feedbacker in Ultrakill is actually what brought me to the band in the first place.
 
 Flood is on streaming now go stream it.
 ## Anamanaguchi live in Toronto

@@ -3,6 +3,8 @@ title: 'Jayden Journal Public Access: Winter 2025'
 date: '2026-01-21'
 tags: ['jjpa', 'reflection']
 ---
+
+[Niño Preparate type shii](https://youtu.be/jnw7Hi6iIKE?si=kn4Kpw0CY4EsCGQQ)
 # Happy 2026!
 (Imagine this post came out 20 days earlier than it did)!
 
