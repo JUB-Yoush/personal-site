@@ -1,5 +1,5 @@
 ---
-title: 'Jayden Journal Public Access: Winter 2025'
+title: 'Jayden Journal Public Access: Winter 2026'
 date: '2026-01-21'
 tags: ['jjpa', 'reflection']
 ---

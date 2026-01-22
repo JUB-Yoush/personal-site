@@ -16,6 +16,6 @@
 
 # ~/resume
 
-a pdf copy can be found [here](https://drive.google.com/file/d/1_49twSV-VX1vtrGLvJO3hdM0f8Yb-2M2/view?usp=sharing)
+a pdf copy can be found [here](https://drive.google.com/file/d/1A-JDGpGSF8L1QGlRkcnYKbyuZ8CKVL3y/view?usp=sharing)
 
-<iframe src="https://drive.google.com/file/d/1_49twSV-VX1vtrGLvJO3hdM0f8Yb-2M2/preview" class="resume-frame" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1A-JDGpGSF8L1QGlRkcnYKbyuZ8CKVL3y/preview" class="resume-frame" allow="autoplay"></iframe>
